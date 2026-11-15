@@ -1,36 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Global reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* ─── Design tokens — Light ────────────────────────────── */
 :root {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #203044;
-  background: #f4f8fb;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --bg:              245 248 252;
+  --card:            255 255 255;
+  --text:            16  28  50;
+  --text-muted:      100 116 139;
+  --border:          226 232 240;
+  --sel-bg:          239 246 255;
+  --sel-border:      37  99  235;
+  --cyan:            8   145 178;
+  --ai-hl:           236 254 255;
+  --header-bg:       255 255 255;
 }
 
-html {
-  min-width: 320px;
-  min-height: 100%;
+/* ─── Design tokens — Dark ─────────────────────────────── */
+.dark {
+  --bg:              8   14  28;
+  --card:            20  36  58;
+  --text:            241 245 249;
+  --text-muted:      165 180 199;
+  --border:          41  59  80;
+  --sel-bg:          27  48  74;
+  --sel-border:      34  211 238;
+  --cyan:            34  211 238;
+  --ai-hl:           16  43  64;
+  --header-bg:       12  22  42;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: #f4f8fb;
+/* ─── Base ─────────────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    @apply antialiased m-0;
+    background-color: rgb(var(--bg));
+    color: rgb(var(--text));
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 }
 
-#root {
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;
-  text-align: left;
+/* ─── Smooth theme toggle ──────────────────────────────── */
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease !important;
 }
+
+/* ─── Utility: hide scrollbar ──────────────────────────── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ─── Thin scrollbar for the page ─────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--text-muted) / 0.2);
+  border-radius: 4px;
+}
+
+/* ─── Keyframes ────────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1);    }
+}
+@keyframes checkBounce {
+  0%   { transform: scale(0) rotate(-10deg); }
+  60%  { transform: scale(1.2) rotate(2deg);  }
+  100% { transform: scale(1) rotate(0deg);    }
+}
+@keyframes toastEnter {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+@keyframes toastLeave {
+  from { opacity: 1; transform: translateY(0);    }
+  to   { opacity: 0; transform: translateY(10px); }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Animation classes ────────────────────────────────── */
+.anim-fade-up    { animation: fadeUp      0.22s ease-out both; }
+.anim-scale-in   { animation: scaleIn     0.18s ease-out both; }
+.anim-check      { animation: checkBounce 0.25s ease-out both; }
+.anim-toast-in   { animation: toastEnter  0.22s ease-out both; }
+.anim-toast-out  { animation: toastLeave  0.18s ease-in  forwards; }
+.anim-spin       { animation: spin        0.75s linear infinite; }
