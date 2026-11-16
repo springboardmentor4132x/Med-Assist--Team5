@@ -45,6 +45,33 @@ const [patients, setPatients] = useState([])
     'fatigue',
     'difficulty breathing'
   ]
+  const validateSymptoms = (symptoms) => {
+  if (!Array.isArray(symptoms) || symptoms.length === 0) {
+    return 'Please select at least one symptom.';
+  }
+
+  const normalizedSymptoms = symptoms.map(
+    (symptom) => symptom.trim().toLowerCase()
+  );
+
+  if (normalizedSymptoms.some((symptom) => !symptom)) {
+    return 'Symptom names cannot be blank.';
+  }
+
+  if (new Set(normalizedSymptoms).size !== normalizedSymptoms.length) {
+    return 'Duplicate symptoms are not allowed.';
+  }
+
+  const unsupportedSymptoms = normalizedSymptoms.filter(
+    (symptom) => !symptomOptions.includes(symptom)
+  );
+
+  if (unsupportedSymptoms.length > 0) {
+    return `Unsupported symptoms: ${unsupportedSymptoms.join(', ')}`;
+  }
+
+  return null;
+};
 
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -69,11 +96,12 @@ const [patients, setPatients] = useState([])
 
   setPrediction(null)
   setError('')
+const validationError = validateSymptoms(form.symptoms);
 
-  if (form.symptoms.length === 0) {
-    setError('Please select at least one symptom.')
-    return
-  }
+if (validationError) {
+  setError(validationError);
+  return;
+}
 
   const patientData = {
     age: Number(form.age),
@@ -97,11 +125,11 @@ try {
   // Refresh patient records
 const data = await getPatients(token)
 setPatients(data.patients || [])
-
 } catch (err) {
-  console.error('Error loading patients:', err.message)
+  console.error('Symptom Validation Error:', err.message);
+  setError(err.message || 'Please check your symptom details.');
 } finally {
-  setLoading(false)
+  setLoading(false);
 }
  }
 if (!user) {
