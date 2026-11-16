@@ -1,14 +1,21 @@
 
 from backend.services.symptom_analyzer import analyze_symptoms
 from backend.services.predict import predict_outcome
+
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+
+
+from pydantic import BaseModel, Field, field_validator
+
 from typing import Optional
+
 from pathlib import Path
 from dotenv import load_dotenv
+
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
 import os
 import json
 
@@ -17,7 +24,10 @@ from backend.services.security import get_current_user
 from backend.routes.auth import router as auth_router
 
 
-# Load database settings
+# --------------------------------------------------
+# 1. DATABASE CONFIGURATION
+# --------------------------------------------------
+
 env_path = Path(__file__).resolve().parent / ".env"
 load_dotenv(env_path)
 
@@ -26,7 +36,6 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL not found in .env file")
 
-# Create database connection
 engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(
@@ -36,14 +45,23 @@ SessionLocal = sessionmaker(
 )
 
 
-# Create FastAPI application
+# --------------------------------------------------
+# 2. CREATE FASTAPI APPLICATION
+# --------------------------------------------------
+
 app = FastAPI(
     title="MedAssist AI",
     description="Medical Symptom Analysis System",
     version="1.0.0"
 )
+
 app.include_router(auth_router)
-# Enable communication between React and FastAPI
+
+
+# --------------------------------------------------
+# 3. CORS CONFIGURATION
+# --------------------------------------------------
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
@@ -52,11 +70,29 @@ app.add_middleware(
     ],
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
-# Patient symptom input model
+
+
+# --------------------------------------------------
+# 4. SUPPORTED SYMPTOMS
+# --------------------------------------------------
+
+SUPPORTED_SYMPTOMS = {
+    "fever",
+    "cough",
+    "fatigue",
+    "difficulty breathing"
+}
+
+
+# --------------------------------------------------
+# 5. PATIENT SYMPTOM INPUT MODEL
+# --------------------------------------------------
+
 class SymptomRequest(BaseModel):
+
     age: int = Field(ge=0, le=120)
 
     gender: Optional[str] = Field(
@@ -77,25 +113,96 @@ class SymptomRequest(BaseModel):
         max_length=500
     )
 
+    # Validate submitted symptoms
+    @field_validator("symptoms", mode="before")
+    @classmethod
+    def validate_symptoms(cls, symptoms):
 
-# Home API
+        # Check whether symptoms are provided as a list
+        if not isinstance(symptoms, list):
+            raise ValueError(
+                "Symptoms must be provided as a list."
+            )
+
+        # Reject empty symptom lists
+        if len(symptoms) == 0:
+            raise ValueError(
+                "Please select at least one symptom."
+            )
+
+        normalized_symptoms = []
+
+        # Validate each symptom
+        for symptom in symptoms:
+
+            # Reject non-text values
+            if not isinstance(symptom, str):
+                raise ValueError(
+                    "Each symptom must be a text value."
+                )
+
+            # Remove extra spaces and convert to lowercase
+            symptom = symptom.strip().lower()
+
+            # Reject blank symptom names
+            if not symptom:
+                raise ValueError(
+                    "Symptom names cannot be blank."
+                )
+
+            normalized_symptoms.append(symptom)
+
+        # Reject duplicate symptoms
+        if len(normalized_symptoms) != len(set(normalized_symptoms)):
+            raise ValueError(
+                "Duplicate symptoms are not allowed."
+            )
+
+        # Reject unsupported symptoms
+        unsupported = [
+            symptom
+            for symptom in normalized_symptoms
+            if symptom not in SUPPORTED_SYMPTOMS
+        ]
+
+        if unsupported:
+            raise ValueError(
+                f"Unsupported symptoms: {', '.join(unsupported)}. "
+                "Supported symptoms are: fever, cough, fatigue, "
+                "difficulty breathing."
+            )
+
+        return normalized_symptoms
+
+# --------------------------------------------------
+# 6. HOME API
+# --------------------------------------------------
+
 @app.get("/")
 def home():
+
     return {
         "message": "Welcome to MedAssist AI",
         "status": "Backend is running successfully"
     }
 
 
-# Health check API
+# --------------------------------------------------
+# 7. HEALTH CHECK API
+# --------------------------------------------------
+
 @app.get("/health")
 def health_check():
+
     return {
         "status": "healthy"
     }
 
 
-# Patient symptom submission API
+# --------------------------------------------------
+# 8. SUBMIT PATIENT SYMPTOMS API
+# --------------------------------------------------
+
 @app.post("/symptoms")
 def submit_symptoms(
     patient: SymptomRequest,
@@ -114,8 +221,7 @@ def submit_symptoms(
             blood_pressure=patient.blood_pressure,
             cholesterol_level=patient.cholesterol_level,
             additional_notes=patient.additional_notes
-            
-          )
+        )
 
         db.add(new_patient)
         db.commit()
@@ -136,6 +242,7 @@ def submit_symptoms(
 
     except Exception:
         db.rollback()
+
         raise HTTPException(
             status_code=500,
             detail="Unable to save symptoms to the database"
@@ -143,7 +250,12 @@ def submit_symptoms(
 
     finally:
         db.close()
-        # Get all patient symptom records
+
+
+# --------------------------------------------------
+# 9. GET ALL PATIENT RECORDS API
+# --------------------------------------------------
+
 @app.get("/patients")
 def get_patients(
     current_user: User = Depends(get_current_user)
@@ -153,10 +265,10 @@ def get_patients(
 
     try:
         patients = db.query(PatientSymptom).filter(
-    PatientSymptom.user_id == current_user.id
-).order_by(
-    PatientSymptom.id.desc()
-).all()
+            PatientSymptom.user_id == current_user.id
+        ).order_by(
+            PatientSymptom.id.desc()
+        ).all()
 
         return {
             "total_records": len(patients),
@@ -177,7 +289,11 @@ def get_patients(
 
     finally:
         db.close()
-        # Get one patient using patient ID
+
+
+# --------------------------------------------------
+# 10. GET ONE PATIENT RECORD API
+# --------------------------------------------------
 
 @app.get("/patients/{patient_id}")
 def get_patient_by_id(
@@ -211,7 +327,10 @@ def get_patient_by_id(
     finally:
         db.close()
 
-        # Update patient information
+
+# --------------------------------------------------
+# 11. UPDATE PATIENT RECORD API
+# --------------------------------------------------
 
 @app.put("/patients/{patient_id}")
 def update_patient(
@@ -253,6 +372,7 @@ def update_patient(
 
     except Exception:
         db.rollback()
+
         raise HTTPException(
             status_code=500,
             detail="Unable to update patient record"
@@ -261,13 +381,17 @@ def update_patient(
     finally:
         db.close()
 
-        # Delete patient record
+
+# --------------------------------------------------
+# 12. DELETE PATIENT RECORD API
+# --------------------------------------------------
 
 @app.delete("/patients/{patient_id}")
 def delete_patient(
     patient_id: int,
     current_user: User = Depends(get_current_user)
 ):
+
     db = SessionLocal()
 
     try:
@@ -295,6 +419,7 @@ def delete_patient(
 
     except Exception:
         db.rollback()
+
         raise HTTPException(
             status_code=500,
             detail="Unable to delete patient record"
@@ -303,9 +428,15 @@ def delete_patient(
     finally:
         db.close()
 
-        # Analyze patient symptoms
+
+# --------------------------------------------------
+# 13. ANALYZE PATIENT SYMPTOMS API
+# --------------------------------------------------
+
 @app.post("/analyze-symptoms")
-def analyze_patient_symptoms(patient: SymptomRequest):
+def analyze_patient_symptoms(
+    patient: SymptomRequest
+):
 
     analysis = analyze_symptoms(patient.symptoms)
 
@@ -316,16 +447,24 @@ def analyze_patient_symptoms(patient: SymptomRequest):
         "duration_days": patient.duration_days,
         "analysis": analysis
     }
-@app.post("/predict")
-def predict_patient_outcome(patient: SymptomRequest):
 
-    # 1. Convert submitted symptoms into model features
+
+# --------------------------------------------------
+# 14. PREDICT PATIENT OUTCOME API
+# --------------------------------------------------
+
+@app.post("/predict")
+def predict_patient_outcome(
+    patient: SymptomRequest
+):
+
+    # Convert submitted symptoms into model features
     symptoms = [
         symptom.lower().strip()
         for symptom in patient.symptoms
     ]
 
-    # 2. Validate and normalize gender
+    # Validate and normalize gender
     gender = (patient.gender or "").strip().lower()
 
     if gender not in ["female", "male"]:
@@ -336,7 +475,7 @@ def predict_patient_outcome(patient: SymptomRequest):
 
     gender = gender.capitalize()
 
-    # 3. Validate blood pressure
+    # Validate blood pressure
     blood_pressure = patient.blood_pressure.strip().capitalize()
 
     if blood_pressure not in ["Low", "Normal", "High"]:
@@ -345,7 +484,7 @@ def predict_patient_outcome(patient: SymptomRequest):
             detail="Blood pressure must be Low, Normal, or High."
         )
 
-    # 4. Validate cholesterol
+    # Validate cholesterol
     cholesterol = patient.cholesterol_level.strip().capitalize()
 
     if cholesterol not in ["Low", "Normal", "High"]:
@@ -354,7 +493,7 @@ def predict_patient_outcome(patient: SymptomRequest):
             detail="Cholesterol level must be Low, Normal, or High."
         )
 
-    # 5. Prepare patient data for prediction
+    # Prepare patient data for prediction
     patient_data = {
         "Fever": "Yes" if "fever" in symptoms else "No",
         "Cough": "Yes" if "cough" in symptoms else "No",
@@ -368,10 +507,10 @@ def predict_patient_outcome(patient: SymptomRequest):
         "Cholesterol Level": cholesterol
     }
 
-    # 6. Generate prediction
+    # Generate prediction
     result = predict_outcome(patient_data)
 
-    # 7. Return response
+    # Return prediction response
     return {
         "message": "Prediction completed",
         "patient_age": patient.age,
