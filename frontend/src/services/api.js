@@ -1,5 +1,19 @@
 
 const API_URL = "http://127.0.0.1:8000";
+// Convert backend validation errors into readable messages
+const formatApiError = (detail) => {
+  if (typeof detail === 'string') {
+    return detail;
+  }
+
+  if (Array.isArray(detail)) {
+    return detail
+      .map((item) => item.msg || 'Invalid input')
+      .join(' ');
+  }
+
+  return 'Something went wrong. Please try again.';
+};
 
 export const predictPatient = async (patientData) => {
   try {
@@ -14,8 +28,8 @@ export const predictPatient = async (patientData) => {
     const data = await response.json();
 
     if (!response.ok) {
-      throw new Error(data.detail || "Prediction failed");
-    }
+  throw new Error(formatApiError(data.detail));
+}
 
     return data;
 
@@ -55,9 +69,9 @@ export const savePatient = async (patientData, token) => {
 
   const data = await response.json()
 
-  if (!response.ok) {
-    throw new Error(data.detail || 'Failed to save patient')
-  }
+ if (!response.ok) {
+  throw new Error(formatApiError(data.detail));
+}
 
   return data
 }
