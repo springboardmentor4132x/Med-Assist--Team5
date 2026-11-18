@@ -14,6 +14,19 @@ export const authService = {
   },
 
   /**
+   * Register a new user account (Patient, Doctor, Clinic)
+   */
+  async register(fullName, email, password, roleName = 'Patient') {
+    const response = await api.post('/auth/register', {
+      full_name: fullName,
+      email,
+      password,
+      role_name: roleName
+    });
+    return response.data;
+  },
+
+  /**
    * Terminate active session
    */
   logout() {

@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from app.core.database import get_db
 from app.core.security import verify_password, hash_password, create_access_token
 from app.models.user import User, Role
-from app.models.profiles import PatientProfile
+from app.models.profiles import PatientProfile, DoctorProfile, ClinicProfile
 from app.schemas.auth import LoginRequest, TokenResponse, UserRegister, UserResponse
 from app.dependencies.auth import get_current_user
 
@@ -85,11 +85,14 @@ def register(user_in: UserRegister, db: Session = Depends(get_db)):
     db.commit()
     db.refresh(new_user)
 
-    # Automatically create patient profile if role is Patient
+    # Automatically create respective profile
     if role.name == "Patient":
-        patient_profile = PatientProfile(user_id=new_user.id)
-        db.add(patient_profile)
-        db.commit()
+        db.add(PatientProfile(user_id=new_user.id))
+    elif role.name == "Doctor":
+        db.add(DoctorProfile(user_id=new_user.id, specialization="General Practice", license_number="MED-NEW"))
+    elif role.name == "Clinic":
+        db.add(ClinicProfile(user_id=new_user.id, clinic_name=new_user.full_name, address="Registered Healthcare Facility"))
+    db.commit()
 
     return UserResponse(
         id=new_user.id,
