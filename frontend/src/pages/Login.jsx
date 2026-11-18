@@ -504,28 +504,7 @@ export default function Login() {
             </form>
           )}
 
-          {/* Quick Demo Credentials Assistant */}
-          <div style={{
-            marginTop: '2rem',
-            padding: '1.25rem',
-            borderRadius: 'var(--radius-md)',
-            backgroundColor: '#F8FAF9',
-            border: '1px solid var(--border-color)',
-            fontSize: '0.8rem'
-          }}>
-            <strong style={{ color: 'var(--text-primary)', display: 'block', marginBottom: '0.5rem' }}>
-              System Demo Accounts (Ready to Test):
-            </strong>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.4rem', color: 'var(--text-secondary)' }}>
-              <div><strong>Admin:</strong> admin@medassist.ai</div>
-              <div><strong>Doctor:</strong> doctor@medassist.ai</div>
-              <div><strong>Clinic:</strong> clinic@medassist.ai</div>
-              <div><strong>Patient:</strong> patient@medassist.ai</div>
-            </div>
-            <div style={{ marginTop: '0.4rem', color: 'var(--text-secondary)' }}>
-              Password: <code style={{ backgroundColor: '#E5ECE7', padding: '0.1rem 0.3rem', borderRadius: '4px' }}>Admin@123 / Doctor@123 / etc.</code>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
