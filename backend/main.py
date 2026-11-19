@@ -1,4 +1,4 @@
-
+from backend.app.api.endpoints.profile import router as profile_router
 from backend.services.symptom_analyzer import analyze_symptoms
 from backend.services.predict import predict_outcome
 
@@ -56,7 +56,7 @@ app = FastAPI(
 )
 
 app.include_router(auth_router)
-
+app.include_router(profile_router)
 
 # --------------------------------------------------
 # 3. CORS CONFIGURATION

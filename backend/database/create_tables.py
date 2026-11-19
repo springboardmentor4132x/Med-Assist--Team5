@@ -4,6 +4,7 @@ from pathlib import Path
 import os
 
 from backend.database.models import Base
+from backend.app.models.profile import PatientProfile
 
 # Load database settings
 env_path = Path(__file__).resolve().parents[1] / ".env"
