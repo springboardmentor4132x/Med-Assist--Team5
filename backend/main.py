@@ -79,10 +79,37 @@ app.add_middleware(
 # 4. SUPPORTED SYMPTOMS
 # --------------------------------------------------
 
+# --------------------------------------------------
+# 4. SUPPORTED SYMPTOMS
+# --------------------------------------------------
+
 SUPPORTED_SYMPTOMS = {
     "fever",
+    "headache",
     "cough",
     "fatigue",
+    "nausea",
+    "vomiting",
+    "dizziness",
+    "chest pain",
+    "stomach pain",
+    "joint pain",
+    "skin rash",
+    "weakness",
+    "chills",
+    "sore throat",
+    "runny nose",
+    "shortness of breath",
+    "back pain",
+    "muscle pain",
+    "sweating",
+    "loss of appetite",
+    "blurred vision",
+    "swelling",
+    "insomnia",
+    "anxiety",
+
+    # Retain compatibility with the existing frontend and model
     "difficulty breathing"
 }
 
@@ -118,13 +145,11 @@ class SymptomRequest(BaseModel):
     @classmethod
     def validate_symptoms(cls, symptoms):
 
-        # Check whether symptoms are provided as a list
         if not isinstance(symptoms, list):
             raise ValueError(
                 "Symptoms must be provided as a list."
             )
 
-        # Reject empty symptom lists
         if len(symptoms) == 0:
             raise ValueError(
                 "Please select at least one symptom."
@@ -132,19 +157,15 @@ class SymptomRequest(BaseModel):
 
         normalized_symptoms = []
 
-        # Validate each symptom
         for symptom in symptoms:
 
-            # Reject non-text values
             if not isinstance(symptom, str):
                 raise ValueError(
                     "Each symptom must be a text value."
                 )
 
-            # Remove extra spaces and convert to lowercase
             symptom = symptom.strip().lower()
 
-            # Reject blank symptom names
             if not symptom:
                 raise ValueError(
                     "Symptom names cannot be blank."
@@ -152,13 +173,11 @@ class SymptomRequest(BaseModel):
 
             normalized_symptoms.append(symptom)
 
-        # Reject duplicate symptoms
         if len(normalized_symptoms) != len(set(normalized_symptoms)):
             raise ValueError(
                 "Duplicate symptoms are not allowed."
             )
 
-        # Reject unsupported symptoms
         unsupported = [
             symptom
             for symptom in normalized_symptoms
@@ -167,12 +186,11 @@ class SymptomRequest(BaseModel):
 
         if unsupported:
             raise ValueError(
-                f"Unsupported symptoms: {', '.join(unsupported)}. "
-                "Supported symptoms are: fever, cough, fatigue, "
-                "difficulty breathing."
+                f"Unsupported symptoms: {', '.join(unsupported)}."
             )
 
         return normalized_symptoms
+
 
 # --------------------------------------------------
 # 6. HOME API
@@ -498,9 +516,12 @@ def predict_patient_outcome(
         "Fever": "Yes" if "fever" in symptoms else "No",
         "Cough": "Yes" if "cough" in symptoms else "No",
         "Fatigue": "Yes" if "fatigue" in symptoms else "No",
-        "Difficulty Breathing": (
-            "Yes" if "difficulty breathing" in symptoms else "No"
-        ),
+       "Difficulty Breathing": (
+    "Yes"
+    if "difficulty breathing" in symptoms
+    or "shortness of breath" in symptoms
+    else "No"
+),
         "Age": patient.age,
         "Gender": gender,
         "Blood Pressure": blood_pressure,

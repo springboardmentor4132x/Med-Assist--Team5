@@ -38,13 +38,33 @@ const [error, setError] = useState('')
 const [patients, setPatients] = useState([])
 
 
-
-  const symptomOptions = [
-    'fever',
-    'cough',
-    'fatigue',
-    'difficulty breathing'
-  ]
+const symptomOptions = [
+  'fever',
+  'headache',
+  'cough',
+  'fatigue',
+  'nausea',
+  'vomiting',
+  'dizziness',
+  'chest pain',
+  'stomach pain',
+  'joint pain',
+  'skin rash',
+  'weakness',
+  'chills',
+  'sore throat',
+  'runny nose',
+  'shortness of breath',
+  'back pain',
+  'muscle pain',
+  'sweating',
+  'loss of appetite',
+  'blurred vision',
+  'swelling',
+  'insomnia',
+  'anxiety',
+  'difficulty breathing'
+]
   const validateSymptoms = (symptoms) => {
   if (!Array.isArray(symptoms) || symptoms.length === 0) {
     return 'Please select at least one symptom.';
