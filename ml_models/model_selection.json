@@ -1,0 +1,65 @@
+{
+  "disease": {
+    "selected_model": "random_forest",
+    "model_file": "best_disease_model.joblib",
+    "label_encoder_file": "best_disease_label_encoder.joblib",
+    "feature_columns": [
+      "fever",
+      "cough",
+      "fatigue",
+      "difficulty_breathing",
+      "age",
+      "gender",
+      "blood_pressure",
+      "cholesterol_level"
+    ],
+    "n_classes": 116,
+    "ranking": [
+      "random_forest",
+      "logistic_regression",
+      "xgboost",
+      "svm",
+      "decision_tree"
+    ],
+    "cv_metrics": {
+      "accuracy": 0.1145,
+      "top3": 0.2479,
+      "precision": 0.0831,
+      "recall": 0.1145,
+      "f1": 0.0885,
+      "macro_f1": 0.0529
+    },
+    "note": "Selected algorithm refitted on all cleaned rows. Scores come from cross-validation, not from this refit. Preliminary decision-support only."
+  },
+  "outcome": {
+    "selected_model": "svm",
+    "model_file": "best_outcome_model.joblib",
+    "label_encoder_file": "best_outcome_label_encoder.joblib",
+    "feature_columns": [
+      "fever",
+      "cough",
+      "fatigue",
+      "difficulty_breathing",
+      "age",
+      "gender",
+      "blood_pressure",
+      "cholesterol_level"
+    ],
+    "n_classes": 2,
+    "ranking": [
+      "svm",
+      "random_forest",
+      "xgboost",
+      "decision_tree",
+      "logistic_regression"
+    ],
+    "cv_metrics": {
+      "accuracy": 0.7489,
+      "precision": 0.7652,
+      "recall": 0.7628,
+      "f1": 0.7589,
+      "roc_auc": 0.8111
+    },
+    "note": "Selected algorithm refitted on all cleaned rows. Scores come from cross-validation, not from this refit. Preliminary decision-support only."
+  }
+}
