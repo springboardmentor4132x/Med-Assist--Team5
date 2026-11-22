@@ -2,10 +2,14 @@ import { useState } from 'react'
 import { predictPatient, getPatients, savePatient, logoutUser } from './services/api'
 import './App.css'
 import Auth from './components/Auth'
+import AdminDashboard from './pages/AdminDashboard'
+import DoctorDashboard from './pages/DoctorDashboard'
+import ClinicDashboard from './pages/ClinicDashboard'
 
 function App() {
 const [user, setUser] = useState(null)
 const [token, setToken] = useState(null)
+const [adminPage, setAdminPage] = useState('Dashboard')
 
 const handleLogout = async () => {
   try {
@@ -151,25 +155,56 @@ setPatients(data.patients || [])
 } finally {
   setLoading(false);
 }
- }
-if (!user) {
-    return (
-      <Auth
-        
-  onLogin={async (result) => {
-  setUser(result.user)
-  setToken(result.access_token)
 
-  try {
-    const data = await getPatients(result.access_token)
-setPatients(data.patients || [])
-  } catch (err) {
-    console.error('Error loading patients:', err.message)
-  }
-}}
-      />
-    )
-  }
+ }
+ if (!user) {
+  return (
+    <Auth
+      onLogin={async (result) => {
+        setUser(result.user)
+        setToken(result.access_token)
+
+        if (result.user.role?.toLowerCase() === 'patient') {
+          try {
+            const data = await getPatients(result.access_token)
+            setPatients(data.patients || [])
+          } catch (err) {
+            console.error('Error loading patients:', err.message)
+          }
+        }
+      }}
+    />
+  )
+}
+if (user.role?.toLowerCase() === 'admin') {
+  return (
+    <AdminDashboard
+      user={user}
+      token={token}
+      onLogout={handleLogout}
+      activePage={adminPage}
+      onNavigate={setAdminPage}
+    />
+  )
+}
+if (user.role?.toLowerCase() === 'doctor') {
+  return (
+    <DoctorDashboard
+      user={user}
+      token={token}
+      onLogout={handleLogout}
+    />
+  )
+}
+if (user.role?.toLowerCase() === 'clinic') {
+  return (
+    <ClinicDashboard
+      user={user}
+      token={token}
+      onLogout={handleLogout}
+    />
+  )
+}
   return (
     <div className="app-container">
 

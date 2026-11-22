@@ -92,3 +92,42 @@ export const logoutUser = async (token) => {
 
   return data
 }
+
+// Get patients assigned to the logged-in doctor
+export const getAssignedDoctorPatients = async (token) => {
+  const response = await fetch(`${API_URL}/doctor/patients`, {
+    method: 'GET',
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  })
+
+  const data = await response.json()
+
+  if (!response.ok) {
+    throw new Error(formatApiError(data.detail))
+  }
+
+  return data
+}
+
+// Get details of one assigned patient
+export const getAssignedPatientDetails = async (token, patientId) => {
+  const response = await fetch(
+    `${API_URL}/doctor/patients/${patientId}`,
+    {
+      method: 'GET',
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    }
+  )
+
+  const data = await response.json()
+
+  if (!response.ok) {
+    throw new Error(formatApiError(data.detail))
+  }
+
+  return data
+}

@@ -23,3 +23,8 @@ dist/
 
 # Logs and temporary files
 *.log
+
+# Local backup files
+*.bak
+*.backup
+*_before_*.py

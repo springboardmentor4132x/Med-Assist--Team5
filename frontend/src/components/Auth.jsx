@@ -7,17 +7,18 @@ function Auth({ onLogin }) {
   const [form, setForm] = useState({
     full_name: '',
     email: '',
-    password: ''
+    password: '',
+    role: 'patient',
   })
 
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
 
   const handleChange = (e) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value
-    })
+    setForm((previous) => ({
+      ...previous,
+      [e.target.name]: e.target.value,
+    }))
   }
 
   const handleSubmit = async (e) => {
@@ -28,21 +29,32 @@ function Auth({ onLogin }) {
     try {
       const endpoint = isLogin ? 'login' : 'register'
 
+      const payload = isLogin
+        ? {
+            email: form.email,
+            password: form.password,
+          }
+        : form
+
       const response = await fetch(
         `http://127.0.0.1:8000/auth/${endpoint}`,
         {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
           },
-          body: JSON.stringify(form)
+          body: JSON.stringify(payload),
         }
       )
 
       const result = await response.json()
 
       if (!response.ok) {
-        throw new Error(result.detail || 'Authentication failed')
+        const message = Array.isArray(result.detail)
+          ? result.detail.map((item) => item.msg).join(', ')
+          : result.detail || 'Authentication failed.'
+
+        throw new Error(message)
       }
 
       if (isLogin) {
@@ -52,90 +64,163 @@ function Auth({ onLogin }) {
         setForm({
           full_name: '',
           email: form.email,
-          password: ''
+          password: '',
+          role: 'patient',
         })
         setError('Registration successful! Please log in.')
       }
-
     } catch (err) {
-      setError(err.message)
+      setError(err.message || 'Something went wrong.')
     } finally {
       setLoading(false)
     }
+  }
+
+  const switchMode = () => {
+    setIsLogin((previous) => !previous)
+    setError('')
+    setForm({
+      full_name: '',
+      email: '',
+      password: '',
+      role: 'patient',
+    })
   }
 
   return (
     <div className="auth-container">
       <div className="auth-card">
 
-        <h1>✚ MedAssist AI</h1>
-        <p>Intelligent Healthcare Assistant</p>
+        <div className="auth-brand">
+          <div className="auth-logo">✚</div>
+          <h1>MedAssist AI</h1>
+          <p>Intelligent Healthcare Assistant</p>
+        </div>
 
-        <h2>{isLogin ? 'Welcome Back' : 'Create Account'}</h2>
+        <div className="auth-heading">
+          <h2>{isLogin ? 'Welcome Back!' : 'Create Your Account'}</h2>
+          <p>
+            {isLogin
+              ? 'Sign in to access your healthcare dashboard.'
+              : 'Join MedAssist AI and get started today.'}
+          </p>
+        </div>
 
-        <form onSubmit={handleSubmit}>
+        <form className="auth-form" onSubmit={handleSubmit}>
 
           {!isLogin && (
-            <input
-              type="text"
-              name="full_name"
-              placeholder="Full Name"
-              value={form.full_name}
-              onChange={handleChange}
-              required
-              minLength="2"
-              maxLength="100"
-            />
+            <>
+              <div className="auth-field">
+                <label htmlFor="full_name">Full Name</label>
+                <input
+                  id="full_name"
+                  type="text"
+                  name="full_name"
+                  placeholder="Enter your full name"
+                  value={form.full_name}
+                  onChange={handleChange}
+                  required
+                  minLength="2"
+                  maxLength="100"
+                />
+              </div>
+
+              <div className="auth-field">
+                <label htmlFor="role">Register As</label>
+                <select
+                  id="role"
+                  name="role"
+                  value={form.role}
+                  onChange={handleChange}
+                  required
+                >
+                  <option value="patient">Patient</option>
+                  <option value="doctor">Doctor</option>
+                  <option value="clinic">Clinic</option>
+                </select>
+                <small>Select the account type you want to create.</small>
+              </div>
+            </>
           )}
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Email Address"
-            value={form.email}
-            onChange={handleChange}
-            required
-          />
+          <div className="auth-field">
+            <label htmlFor="email">Email Address</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+              value={form.email}
+              onChange={handleChange}
+              required
+            />
+          </div>
 
-          <input
-            type="password"
-            name="password"
-            placeholder="Password"
-            value={form.password}
-            onChange={handleChange}
-            required
-            minLength="8"
-            maxLength="128"
-          />
+          <div className="auth-field">
+            <label htmlFor="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+              value={form.password}
+              onChange={handleChange}
+              required
+              minLength="8"
+              maxLength="128"
+            />
+            {!isLogin && (
+              <small>Password must contain at least 8 characters.</small>
+            )}
+          </div>
 
-          <button type="submit" disabled={loading}>
+          {error && (
+            <div
+              className={`auth-message ${
+                error.startsWith('Registration successful')
+                  ? 'auth-success'
+                  : 'auth-error'
+              }`}
+              role="alert"
+            >
+              {error}
+            </div>
+          )}
+
+          <button
+            type="submit"
+            className="auth-submit"
+            disabled={loading}
+          >
             {loading
               ? 'Please wait...'
               : isLogin
-                ? 'Login'
-                : 'Register'}
+                ? 'Sign In'
+                : 'Create Account'}
           </button>
 
         </form>
 
-        {error && <p className="auth-message">{error}</p>}
-
-        <p>
-          {isLogin
-            ? "Don't have an account?"
-            : 'Already have an account?'}
+        <div className="auth-footer">
+          <span>
+            {isLogin
+              ? "Don't have an account?"
+              : 'Already have an account?'}
+          </span>
 
           <button
             type="button"
             className="auth-toggle"
-            onClick={() => {
-              setIsLogin(!isLogin)
-              setError('')
-            }}
+            onClick={switchMode}
           >
-            {isLogin ? 'Register' : 'Login'}
+            {isLogin ? 'Create Account' : 'Sign In'}
           </button>
-        </p>
+        </div>
+
+        <div className="auth-security">
+          <span>🔒</span>
+          Secure Authentication | MedAssist AI
+        </div>
 
       </div>
     </div>

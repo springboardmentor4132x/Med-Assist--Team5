@@ -20,7 +20,9 @@ import json
 from backend.database.models import PatientSymptom, User
 from backend.services.security import get_current_user
 from backend.routes.auth import router as auth_router
-
+from backend.routes.admin import router as admin_router
+from backend.routes.doctor import router as doctor_router
+from backend.routes.clinic import router as clinic_router
 
 # --------------------------------------------------
 # 1. DATABASE CONFIGURATION
@@ -53,8 +55,12 @@ app = FastAPI(
     version="1.0.0"
 )
 
+
 app.include_router(auth_router)
 app.include_router(profile_router)
+app.include_router(admin_router)
+app.include_router(doctor_router)
+app.include_router(clinic_router)
 
 # --------------------------------------------------
 # 3. CORS CONFIGURATION
