@@ -1,0 +1,81 @@
+.gap {
+    margin-top: 18px;
+}
+
+.chip-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.chip {
+    padding: 6px 12px;
+    border: 1px solid #c4c8cd;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #333;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.chip:hover {
+    border-color: #1a73a8;
+    color: #1a73a8;
+}
+
+/* symptom that is already selected */
+.chip.selected {
+    background-color: #e3f0f8;
+    border-color: #1a73a8;
+    color: #1a73a8;
+}
+
+/* chip in the selected list and the result */
+.chip.chosen {
+    background-color: #1a73a8;
+    border-color: #1a73a8;
+    color: #fff;
+    cursor: default;
+}
+
+.chip-remove {
+    margin-left: 8px;
+    padding: 0 2px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.scroll-area {
+    max-height: 230px;
+    overflow-y: auto;
+    margin-top: 12px;
+    padding: 4px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #c4c8cd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #1a73a8;
+}
+
+.result-text {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.result-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #8a5a00;
+}

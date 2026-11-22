@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Assessment - MedAssist AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/symptoms.css">
+    <link rel="stylesheet" href="css/assessment.css">
+</head>
+<body>
+    <header class="navbar">
+        <h2>MedAssist AI</h2>
+        <nav>
+            <a href="assessments.html">My Assessments</a>
+            <a href="dashboard.html">Dashboard</a>
+            <button id="logoutBtn" class="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <main class="dashboard wide">
+        <h1>Symptom Assessment</h1>
+        <p class="role-text" id="subTitle"></p>
+
+        <div id="message" class="message"></div>
+
+        <div id="content" class="hidden">
+            <div class="info-card">
+                <h3>Your Symptoms (<span id="symptomCount">0</span>)</h3>
+                <div id="symptomChips" class="chip-area"></div>
+            </div>
+
+            <div class="info-card gap">
+                <h3>How Your Symptoms Are Related</h3>
+                <p class="result-text">Based on the dataset. "2 given 1" means: among the dataset rows that have symptom 1, the percentage that also have symptom 2.</p>
+                <p id="strongestText" class="strongest-text"></p>
+                <div id="pairWrap" class="table-wrap">
+                    <table class="user-table">
+                        <thead>
+                            <tr>
+                                <th>Symptom 1</th>
+                                <th>Symptom 2</th>
+                                <th>Rows with both</th>
+                                <th>2 given 1</th>
+                                <th>1 given 2</th>
+                                <th>Strength</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pairTable"></tbody>
+                    </table>
+                </div>
+                <p id="noPairs" class="empty-text hidden">Select at least two symptoms to see how they are related.</p>
+            </div>
+
+            <div class="info-card gap">
+                <h3>Symptoms Often Seen Together</h3>
+                <p id="relatedInfo" class="result-text"></p>
+                <div id="relatedList"></div>
+                <p id="noRelated" class="empty-text hidden">No related symptoms found in the dataset.</p>
+            </div>
+
+            <div class="info-card gap">
+                <h3>Your Medical History</h3>
+                <p id="historySummary" class="result-text"></p>
+                <div id="historyList" class="history-list"></div>
+            </div>
+
+            <p id="disclaimer" class="disclaimer"></p>
+
+            <div class="bottom-buttons">
+                <a href="symptoms.html" class="btn">New Assessment</a>
+                <a href="assessments.html" class="btn btn-outline">All Assessments</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/assessment.js"></script>
+</body>
+</html>

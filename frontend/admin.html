@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Users - MedAssist AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header class="navbar">
+        <h2>MedAssist AI</h2>
+        <nav>
+            <a href="dashboard.html">Dashboard</a>
+            <button id="logoutBtn" class="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <main class="dashboard wide">
+        <h1>Manage Users</h1>
+        <p class="role-text">Admin panel</p>
+
+        <div id="message" class="message"></div>
+
+        <div class="stats">
+            <div class="stat-box"><span id="statTotal">0</span>Total Users</div>
+            <div class="stat-box"><span id="statPatient">0</span>Patients</div>
+            <div class="stat-box"><span id="statDoctor">0</span>Doctors</div>
+            <div class="stat-box"><span id="statClinic">0</span>Clinics</div>
+            <div class="stat-box"><span id="statAdmin">0</span>Admins</div>
+        </div>
+
+        <div class="table-wrap">
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Contact</th>
+                        <th>Requested</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="userTable"></tbody>
+            </table>
+        </div>
+
+        <h3 class="list-title">Doctor - Patient Assignments</h3>
+        <p class="role-text">A doctor can see the profile and history of assigned patients only.</p>
+
+        <div class="assign-box">
+            <select id="doctorSelect"></select>
+            <select id="patientSelect"></select>
+            <button id="assignBtn" class="small-btn">Assign</button>
+        </div>
+
+        <div class="table-wrap">
+            <table class="user-table">
+                <thead>
+                    <tr>
+                        <th>Doctor</th>
+                        <th>Patient</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="assignTable"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="js/common.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

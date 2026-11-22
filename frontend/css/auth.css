@@ -1,0 +1,107 @@
+.auth-box {
+    background-color: #fff;
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 28px 30px;
+    border: 1px solid #dcdfe3;
+    border-radius: 6px;
+}
+
+.auth-box h2 {
+    margin-bottom: 4px;
+}
+
+.sub-text {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.auth-box label {
+    display: block;
+    font-size: 14px;
+    margin: 12px 0 5px;
+}
+
+.auth-box input,
+.auth-box select {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid #c4c8cd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.auth-box input:focus,
+.auth-box select:focus {
+    outline: none;
+    border-color: #1a73a8;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+}
+
+.row div {
+    flex: 1;
+}
+
+.auth-box button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #1a73a8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.auth-box button:hover {
+    background-color: #155d88;
+}
+
+.auth-box button:disabled {
+    background-color: #8fb5cb;
+    cursor: not-allowed;
+}
+
+.bottom-text {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+/* patient / doctor / clinic tabs on register page */
+.tabs {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.auth-box .tab {
+    margin-top: 0;
+    padding: 8px;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #c4c8cd;
+    font-size: 14px;
+}
+
+.auth-box .tab:hover {
+    background-color: #f0f2f4;
+}
+
+.auth-box .tab.active {
+    background-color: #1a73a8;
+    color: #fff;
+    border-color: #1a73a8;
+}
+
+.role-note {
+    font-size: 13px;
+    color: #8a6d00;
+    margin-top: 10px;
+}
