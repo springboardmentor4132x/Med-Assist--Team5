@@ -3,7 +3,11 @@ from backend.services.symptom_analyzer import analyze_symptoms
 from backend.services.predict import predict_outcome
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
+<<<<<<< HEAD
 from pydantic import BaseModel, Field
+=======
+from pydantic import BaseModel, Field, field_validator
+>>>>>>> 293ea8fe7a1ad6b2dfe903e05e3bbe4ddf9da3f2
 from typing import Optional
 from pathlib import Path
 from dotenv import load_dotenv
@@ -54,6 +58,18 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+<<<<<<< HEAD
+=======
+# Symptoms supported by the current frontend and ML model
+SUPPORTED_SYMPTOMS = {
+    "fever",
+    "cough",
+    "fatigue",
+    "difficulty breathing"
+}
+
+
+>>>>>>> 293ea8fe7a1ad6b2dfe903e05e3bbe4ddf9da3f2
 
 # Patient symptom input model
 class SymptomRequest(BaseModel):
@@ -76,6 +92,42 @@ class SymptomRequest(BaseModel):
         default=None,
         max_length=500
     )
+<<<<<<< HEAD
+=======
+    @field_validator("symptoms")
+    @classmethod
+    def validate_symptoms(cls, symptoms):
+
+        # Remove extra spaces and convert to lowercase
+        symptoms = [
+            symptom.strip().lower()
+            for symptom in symptoms
+        ]
+
+        # Reject blank symptom names
+        if any(not symptom for symptom in symptoms):
+            raise ValueError("Symptom names cannot be blank.")
+
+        # Reject duplicate symptoms
+        if len(symptoms) != len(set(symptoms)):
+            raise ValueError("Duplicate symptoms are not allowed.")
+
+        # Reject unsupported symptoms
+        unsupported = [
+            symptom for symptom in symptoms
+            if symptom not in SUPPORTED_SYMPTOMS
+        ]
+
+        if unsupported:
+            raise ValueError(
+                f"Unsupported symptoms: {', '.join(unsupported)}. "
+                "Supported symptoms are: fever, cough, fatigue, "
+                "difficulty breathing."
+            )
+
+        return symptoms
+
+>>>>>>> 293ea8fe7a1ad6b2dfe903e05e3bbe4ddf9da3f2
 
 
 # Home API
