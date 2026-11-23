@@ -1,0 +1,301 @@
+/* Prediction Results Component Styles - MedAssist AI */
+
+.prediction-results-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(25, 60, 80, 0.08);
+  margin-top: 30px;
+  border: 1px solid #e5eff5;
+  transition: all 0.3s ease;
+}
+
+.results-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f0f4f8;
+  padding-bottom: 16px;
+  margin-bottom: 22px;
+}
+
+.results-header h2 {
+  font-size: 22px;
+  color: #087e8b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.results-tag {
+  background: #e6f6f7;
+  color: #087e8b;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Primary Prediction Box */
+.primary-prediction-box {
+  background: linear-gradient(135deg, #f8fcfd 0%, #edf7f8 100%);
+  border: 1.5px solid #bee3e6;
+  border-radius: 14px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.primary-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.disease-title-area .category-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #16a6a0;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.disease-title-area h3 {
+  font-size: 28px;
+  color: #16324a;
+  margin: 0;
+}
+
+.confidence-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.confidence-high {
+  background: #e1f7ec;
+  color: #0c7a4d;
+  border: 1px solid #b2e8cf;
+}
+
+.confidence-moderate {
+  background: #e8f4fc;
+  color: #0d639b;
+  border: 1px solid #bedef6;
+}
+
+.confidence-screening {
+  background: #fef8e7;
+  color: #9c6c0b;
+  border: 1px solid #f6e2af;
+}
+
+/* Probability Bar */
+.probability-bar-container {
+  margin: 16px 0 8px;
+}
+
+.probability-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #55697d;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.probability-bar-track {
+  width: 100%;
+  height: 10px;
+  background: #dbeef2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.probability-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #16a6a0, #087e8b);
+  border-radius: 5px;
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Insight Sections (Reason & Cause) */
+.insights-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.insight-card {
+  background: #fbfdfe;
+  border: 1px solid #e5eff5;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.insight-card.reason-card {
+  border-left: 4px solid #087e8b;
+}
+
+.insight-card.cause-card {
+  border-left: 4px solid #16a6a0;
+}
+
+.insight-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #203044;
+  margin-bottom: 10px;
+}
+
+.insight-content {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #43586c;
+}
+
+.insight-content strong {
+  color: #203044;
+}
+
+/* Differential Top 3 Table / Cards */
+.differential-section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 17px;
+  color: #203044;
+  font-weight: 700;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.differential-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.differential-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: #f9fbfd;
+  border: 1px solid #e8f0f5;
+  border-radius: 10px;
+  transition: transform 0.15s ease;
+}
+
+.differential-item:hover {
+  background: #f2f7fb;
+}
+
+.diff-rank-disease {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.diff-rank-badge {
+  background: #087e8b;
+  color: white;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.diff-rank-badge.rank-2 {
+  background: #16a6a0;
+}
+
+.diff-rank-badge.rank-3 {
+  background: #78909c;
+}
+
+.diff-info .diff-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #203044;
+}
+
+.diff-info .diff-category {
+  font-size: 12px;
+  color: #788896;
+}
+
+.diff-score-badge {
+  font-size: 14px;
+  font-weight: 700;
+  color: #087e8b;
+  background: #e6f6f7;
+  padding: 5px 12px;
+  border-radius: 12px;
+}
+
+/* Recommendations Card */
+.recommendations-box {
+  background: #f3faf8;
+  border: 1px solid #c9eee5;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.recommendations-box h4 {
+  font-size: 15px;
+  color: #0e6c52;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recommendations-box p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #3b574f;
+  margin: 0;
+}
+
+/* Medical Disclaimer Notice */
+.results-disclaimer {
+  background: #fff9ea;
+  border: 1px solid #f6e6bd;
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #7b5912;
+}
+
+@media (max-width: 768px) {
+  .insights-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .primary-top-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

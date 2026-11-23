@@ -1,0 +1,1321 @@
+Disease,Age,Gender,duration_days,Blood Pressure,Cholesterol Level,fever_chills,fatigue_weakness,sore_throat,headache,muscle_joint_aches,skin_rash,mouth_ulcers,swollen_lymph_nodes,night_sweats,cough,difficulty_breathing,chest_pain,wheezing,nausea_vomiting,diarrhea,abdominal_pain,loss_of_appetite,unexplained_weight_loss,dizziness,stiff_neck,joint_swelling,painful_urination,urinary_urgency,itching
+Acute HIV Infection,58,Female,7,High,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,40,Male,26,Normal,Normal,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,58,Female,24,High,Normal,1,0,1,1,1,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,55,Male,18,Normal,Low,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,34,Female,23,Low,High,1,1,1,1,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,48,Female,15,Normal,Normal,0,0,1,1,1,1,1,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0
+Acute HIV Infection,52,Female,25,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,59,Female,9,Low,High,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,51,Female,8,Low,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,24,Female,24,Normal,Normal,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,34,Male,15,Low,High,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,31,Female,28,Normal,High,1,1,1,1,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,37,Female,14,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,18,Female,18,Normal,Low,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,31,Male,12,High,Normal,1,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,32,Female,23,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,36,Female,15,Normal,High,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,56,Female,22,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,23,Male,7,High,Normal,0,1,1,0,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,54,Male,19,Low,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,59,Male,26,High,Normal,1,1,1,1,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0
+Acute HIV Infection,44,Male,24,High,High,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,55,Male,10,High,Normal,1,1,1,1,1,1,1,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,54,Male,9,Low,Normal,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Acute HIV Infection,32,Male,16,High,Normal,1,0,1,1,1,0,1,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,20,Male,17,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,60,Male,24,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0
+Acute HIV Infection,18,Male,9,Normal,High,1,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+Acute HIV Infection,55,Male,11,Normal,Normal,1,1,1,0,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,24,Male,7,High,Normal,1,1,1,0,1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Acute HIV Infection,24,Male,12,High,Low,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0
+Acute HIV Infection,40,Male,27,Low,High,1,1,0,1,1,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,30,Male,28,High,High,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Acute HIV Infection,25,Male,9,Normal,Low,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Acute HIV Infection,37,Male,10,Normal,Low,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Acute HIV Infection,52,Male,8,Normal,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0
+Acute HIV Infection,29,Female,28,High,Normal,1,1,1,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Acute HIV Infection,24,Male,21,Normal,Normal,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,60,Male,18,Low,High,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Acute HIV Infection,40,Male,10,High,Normal,1,1,0,1,1,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0
+Infectious Mononucleosis,25,Female,12,Normal,Normal,0,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,19,Male,11,Normal,Normal,1,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Infectious Mononucleosis,17,Male,20,Normal,Normal,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,33,Male,17,Low,Normal,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,29,Female,12,Normal,Normal,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,34,Female,12,Normal,High,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Infectious Mononucleosis,19,Female,8,Normal,High,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,30,Female,12,High,Normal,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,26,Female,13,Normal,Normal,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,24,Female,7,Normal,Normal,1,1,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Infectious Mononucleosis,26,Male,18,Normal,High,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,32,Male,11,Normal,Normal,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,24,Male,14,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Infectious Mononucleosis,34,Female,17,Normal,Normal,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,25,Male,18,Normal,Normal,1,1,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,17,Female,12,Normal,Normal,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,32,Female,15,Normal,Normal,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,16,Female,14,Normal,Normal,1,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,20,Male,15,Normal,High,1,1,1,1,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,29,Male,20,Low,High,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,31,Male,18,Normal,Normal,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,21,Female,14,Normal,Normal,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,32,Male,10,Low,Low,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,23,Male,9,Normal,High,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,16,Female,13,High,Normal,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,20,Female,18,Normal,Normal,1,1,1,1,1,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,20,Male,17,Normal,High,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,33,Female,7,High,Low,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0
+Infectious Mononucleosis,32,Female,21,High,Low,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,24,Male,17,High,Normal,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,19,Male,10,High,High,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,32,Male,10,High,Normal,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,25,Male,21,Normal,Low,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,22,Female,7,Normal,Low,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Infectious Mononucleosis,17,Female,19,Normal,Normal,1,1,1,1,1,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,22,Female,16,Normal,High,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,31,Female,10,Normal,High,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,17,Male,7,Normal,Normal,1,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Infectious Mononucleosis,26,Female,8,Normal,Normal,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Infectious Mononucleosis,30,Female,8,Normal,Normal,1,1,1,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,60,Male,7,High,Normal,0,1,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,29,Male,9,Normal,Low,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Other Viral or Bacterial Infections,43,Female,11,High,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,24,Female,8,Normal,High,1,0,1,1,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,33,Male,8,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,72,Female,11,Normal,Normal,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Other Viral or Bacterial Infections,73,Female,12,Normal,High,1,1,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,31,Female,6,High,High,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,28,Male,13,Normal,Normal,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,26,Male,8,High,High,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,64,Female,14,Normal,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,31,Male,8,High,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,60,Male,13,Normal,High,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Other Viral or Bacterial Infections,74,Male,9,High,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,25,Female,14,Normal,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,24,Female,14,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,69,Male,7,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0
+Other Viral or Bacterial Infections,23,Female,11,Low,Normal,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,51,Male,10,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,48,Male,5,Normal,Normal,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Other Viral or Bacterial Infections,52,Female,3,Low,Normal,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,12,Male,14,Normal,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,59,Male,5,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Other Viral or Bacterial Infections,51,Female,3,Normal,High,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,47,Female,5,High,Low,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,18,Male,7,High,High,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,21,Male,12,Low,High,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Other Viral or Bacterial Infections,22,Female,6,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,17,Male,11,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,43,Male,14,Low,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,70,Female,5,Normal,Normal,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,34,Male,6,Low,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,40,Male,10,Normal,Normal,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Other Viral or Bacterial Infections,11,Female,7,Normal,Low,1,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,48,Female,5,Normal,Normal,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,33,Male,4,Normal,High,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,62,Female,5,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,14,Female,14,Normal,Normal,1,1,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Other Viral or Bacterial Infections,61,Female,6,Normal,Low,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Other Viral or Bacterial Infections,22,Male,12,Normal,Normal,1,1,1,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Influenza,16,Female,4,Low,Normal,1,0,1,1,1,0,0,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0
+Influenza,56,Male,7,High,High,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,13,Male,8,Normal,High,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Influenza,67,Male,6,Normal,Normal,1,1,1,1,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0
+Influenza,48,Male,3,High,High,1,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,32,Male,6,High,Normal,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,69,Male,9,Low,Low,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,46,Female,8,Normal,Normal,0,1,0,1,1,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Influenza,76,Female,9,Normal,High,1,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,27,Female,5,Low,High,1,1,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,25,Male,9,Normal,Normal,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,52,Male,10,Normal,High,1,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,11,Female,7,Normal,Normal,1,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,73,Female,5,High,High,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Influenza,28,Female,7,Normal,Normal,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,51,Male,9,Normal,Normal,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,79,Male,6,Low,Normal,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,66,Male,3,Normal,Normal,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,33,Male,8,High,Normal,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,22,Female,5,Normal,Normal,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,34,Male,9,Normal,Normal,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Influenza,66,Male,8,Normal,High,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0
+Influenza,59,Male,7,Low,Normal,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Influenza,5,Female,5,Normal,Normal,1,1,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+Influenza,51,Female,3,Low,Normal,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Influenza,19,Male,7,High,Low,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Influenza,27,Male,8,Normal,High,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,78,Male,10,Normal,High,1,1,0,1,1,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Influenza,48,Male,5,Normal,Normal,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,43,Male,3,Normal,High,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,53,Male,10,Normal,Normal,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0
+Influenza,15,Female,5,Normal,Normal,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Influenza,75,Male,5,Low,High,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+Influenza,6,Male,7,Normal,High,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,62,Male,10,Normal,Normal,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Influenza,37,Male,3,Normal,High,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,60,Male,3,Normal,Normal,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Influenza,61,Female,3,High,Normal,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,1
+Influenza,51,Female,8,High,High,1,1,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Influenza,14,Female,6,High,Low,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Common Cold,73,Male,9,Normal,Normal,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,34,Male,7,Normal,Normal,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Common Cold,13,Male,8,Low,High,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Common Cold,50,Female,6,Normal,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,52,Female,8,Normal,High,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,16,Female,5,Low,Low,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Common Cold,8,Male,9,Low,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Common Cold,4,Male,9,Normal,Normal,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,44,Male,8,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Common Cold,83,Male,5,High,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+Common Cold,27,Female,4,Normal,Low,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Common Cold,7,Male,8,High,Low,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Common Cold,60,Female,6,Normal,Normal,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,59,Male,9,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Common Cold,6,Male,6,Low,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,28,Female,4,Normal,Low,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,28,Male,7,Normal,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Common Cold,70,Male,7,High,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Common Cold,6,Male,7,Normal,High,1,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,6,Male,7,High,Normal,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Common Cold,28,Male,8,Normal,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,61,Female,4,High,Low,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Common Cold,15,Male,10,High,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,43,Female,10,Normal,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,57,Male,4,Normal,Normal,0,1,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,55,Female,6,Low,High,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,66,Male,7,Low,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,70,Female,7,Normal,Low,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Common Cold,37,Male,4,High,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,35,Female,4,Normal,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,14,Male,9,Normal,Normal,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Common Cold,17,Female,4,High,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,58,Female,7,Low,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,1,0,0,0,0,1,0
+Common Cold,64,Male,7,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,40,Male,4,Normal,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Common Cold,70,Female,9,Normal,Low,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,53,Male,4,Low,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Common Cold,38,Male,9,High,High,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Common Cold,28,Male,4,Normal,High,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Common Cold,43,Female,10,Normal,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Streptococcal Pharyngitis,19,Male,7,Normal,High,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,37,Female,6,Normal,Normal,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Streptococcal Pharyngitis,34,Female,3,Normal,High,1,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,26,Female,7,Normal,Normal,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,9,Female,6,Normal,Normal,1,0,1,1,0,0,1,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Streptococcal Pharyngitis,25,Male,7,High,Normal,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,41,Female,6,Normal,Normal,1,1,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,14,Male,5,High,High,1,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,28,Male,4,High,Normal,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,42,Male,3,Normal,Normal,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,20,Female,3,High,Normal,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,45,Female,7,Normal,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,38,Female,6,Normal,Normal,1,0,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,32,Female,4,Normal,High,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,42,Female,7,Normal,Normal,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,40,Female,3,Normal,Normal,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,15,Female,5,Low,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,8,Female,6,High,Low,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Streptococcal Pharyngitis,7,Female,7,High,High,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,42,Female,5,Normal,Normal,0,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0
+Streptococcal Pharyngitis,36,Female,4,Normal,Normal,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,9,Male,7,High,Normal,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,14,Female,4,High,High,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+Streptococcal Pharyngitis,22,Female,3,Low,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,25,Male,7,High,High,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Streptococcal Pharyngitis,8,Female,5,Normal,Normal,0,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0
+Streptococcal Pharyngitis,36,Male,6,Low,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,13,Male,5,Normal,High,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,28,Female,7,Normal,High,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,28,Male,3,Normal,Normal,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,40,Female,7,Normal,Normal,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,40,Male,3,Normal,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,5,Female,6,Low,Normal,1,1,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,41,Female,4,High,High,1,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,11,Male,7,Normal,Normal,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,24,Female,7,Normal,Normal,1,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,26,Female,4,Normal,High,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+Streptococcal Pharyngitis,17,Female,4,Normal,Normal,1,0,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Streptococcal Pharyngitis,36,Male,3,Normal,Normal,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Streptococcal Pharyngitis,26,Male,4,High,High,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Pneumonia,37,Female,7,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Pneumonia,79,Female,10,Normal,High,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,82,Male,12,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,52,Male,17,High,High,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,81,Male,11,Normal,Normal,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,83,Female,16,Normal,High,1,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0
+Pneumonia,69,Male,20,High,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+Pneumonia,33,Female,18,Normal,High,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,67,Male,12,Low,Normal,1,1,0,1,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0
+Pneumonia,50,Female,12,High,High,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,22,Male,17,Normal,Normal,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0
+Pneumonia,31,Male,18,Normal,High,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,51,Female,10,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1
+Pneumonia,75,Female,5,High,Normal,1,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1
+Pneumonia,50,Male,11,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,44,Male,11,High,Normal,0,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Pneumonia,57,Female,5,Low,Normal,1,0,0,1,0,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+Pneumonia,72,Female,7,Low,Low,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,18,Male,21,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Pneumonia,62,Female,21,Normal,High,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,15,Female,12,Normal,Normal,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,40,Female,10,High,Low,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,46,Female,11,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0
+Pneumonia,66,Female,11,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,60,Female,14,High,Normal,1,1,0,1,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0
+Pneumonia,66,Female,20,High,Low,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Pneumonia,60,Male,12,Normal,High,1,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,28,Female,6,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,35,Male,11,Normal,High,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,73,Male,10,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0
+Pneumonia,74,Male,15,High,High,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0
+Pneumonia,60,Female,11,High,High,1,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,1,1,1,0,0,0,0
+Pneumonia,27,Female,10,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0
+Pneumonia,83,Female,13,Low,Normal,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,46,Female,6,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,43,Male,21,Normal,Normal,1,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+Pneumonia,25,Male,17,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,1
+Pneumonia,79,Male,20,Normal,Normal,1,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Pneumonia,61,Female,9,Normal,Normal,1,1,0,0,0,1,0,0,0,1,1,1,0,1,0,0,1,0,0,0,0,0,0,0
+Pneumonia,26,Female,16,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Bronchitis,62,Male,15,Low,Normal,1,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,53,Male,15,High,Low,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,51,Female,15,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,69,Female,12,Low,Normal,1,1,1,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,18,Male,11,Low,High,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,26,Female,6,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,36,Female,16,High,Low,1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,48,Male,15,Normal,Normal,1,1,1,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,61,Female,5,Normal,Normal,1,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
+Bronchitis,33,Male,12,Low,High,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Bronchitis,67,Male,6,Normal,Normal,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,22,Female,8,Normal,Normal,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,75,Female,11,High,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,72,Female,13,Normal,Normal,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,41,Male,16,Normal,Normal,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+Bronchitis,75,Female,12,Normal,High,1,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,27,Male,5,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+Bronchitis,55,Female,5,Normal,High,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0
+Bronchitis,35,Female,8,Normal,Normal,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1
+Bronchitis,40,Female,15,High,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,25,Female,11,Normal,Low,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,70,Male,14,Normal,Normal,0,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,67,Female,6,Low,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,47,Female,14,Normal,Low,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0
+Bronchitis,25,Female,8,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,38,Male,7,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,32,Female,14,Normal,High,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Bronchitis,28,Female,17,Low,Low,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0
+Bronchitis,28,Male,15,Normal,Low,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,23,Male,12,High,Low,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,52,Female,17,Low,Low,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,27,Male,12,Normal,High,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Bronchitis,33,Male,16,Normal,Normal,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,58,Female,16,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Bronchitis,49,Female,13,Normal,Low,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Bronchitis,58,Male,14,High,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,40,Female,14,Normal,Low,1,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,25,Male,5,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bronchitis,69,Female,10,Normal,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+Bronchitis,56,Male,12,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Asthma,49,Male,12,Low,Normal,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,45,Male,21,Low,Normal,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,12,Female,15,Normal,Normal,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0
+Asthma,31,Female,8,High,Normal,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,1,0,1,1,0
+Asthma,58,Male,11,Normal,Normal,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,25,Female,3,Normal,Normal,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,45,Female,4,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,1,0,0,0,1
+Asthma,26,Male,16,Low,Normal,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,65,Male,30,Normal,Normal,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+Asthma,42,Male,10,Normal,High,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,50,Female,19,High,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1
+Asthma,46,Female,3,Normal,High,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,51,Male,27,Low,Low,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,47,Male,9,Normal,High,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,14,Female,30,Normal,Low,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0
+Asthma,30,Male,17,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,19,Male,16,Normal,High,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,0,0
+Asthma,43,Male,16,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0
+Asthma,62,Male,4,Normal,Normal,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Asthma,26,Male,19,Normal,Low,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0
+Asthma,42,Female,2,Normal,Normal,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0
+Asthma,63,Male,20,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,6,Female,25,Normal,High,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,8,Female,24,Normal,Normal,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0
+Asthma,64,Female,10,Normal,Low,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,31,Male,5,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Asthma,50,Female,9,High,High,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Asthma,19,Female,4,High,Normal,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,56,Female,3,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,10,Female,26,Normal,Normal,0,1,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,7,Male,14,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1
+Asthma,37,Female,21,Normal,Normal,0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,20,Female,3,Normal,Normal,0,0,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,27,Female,15,High,Low,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,34,Female,1,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Asthma,53,Female,11,High,Normal,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,54,Male,11,Normal,Normal,0,1,0,0,0,1,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+Asthma,21,Male,9,High,Normal,0,1,0,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,20,Female,11,Normal,High,0,1,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0
+Asthma,65,Female,13,High,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),68,Female,130,Normal,Low,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),77,Female,161,Normal,High,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),66,Female,25,Normal,Low,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),48,Male,87,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),55,Female,167,Low,Low,0,1,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),59,Female,97,Normal,Normal,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),76,Male,47,Normal,High,0,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),51,Female,42,Low,High,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),71,Male,127,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),58,Male,151,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),53,Male,35,Normal,Normal,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),63,Female,111,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),59,Female,140,Normal,Normal,0,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),55,Female,126,High,Normal,0,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),58,Male,48,Normal,High,0,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),70,Male,157,Normal,High,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),45,Male,33,High,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),80,Male,180,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,1,0,0,1,0,0,0,1,0,0
+Chronic Obstructive Pulmonary Disease (COPD),47,Male,84,Normal,Low,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),57,Female,99,High,High,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0
+Chronic Obstructive Pulmonary Disease (COPD),67,Female,101,Normal,High,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),62,Female,158,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),77,Male,37,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),73,Male,165,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),53,Female,99,High,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),69,Male,76,High,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),57,Female,68,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+Chronic Obstructive Pulmonary Disease (COPD),70,Male,27,Normal,Normal,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),52,Male,131,Normal,High,0,1,0,0,0,0,0,0,1,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),60,Male,24,Normal,Normal,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),48,Male,160,Normal,High,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),82,Male,176,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),54,Female,173,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),68,Female,176,High,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),83,Male,19,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),56,Male,142,Normal,High,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),47,Male,116,High,Normal,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),61,Male,166,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,0,0,0,1,0,0
+Chronic Obstructive Pulmonary Disease (COPD),78,Male,136,Normal,Normal,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Chronic Obstructive Pulmonary Disease (COPD),78,Female,65,Normal,Normal,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,18,Female,21,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,10,Male,18,Normal,Normal,1,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,78,Female,11,High,High,1,1,1,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,48,Male,9,Normal,High,1,1,1,1,0,1,0,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,74,Male,13,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,29,Female,14,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,12,Female,8,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,34,Female,18,High,Normal,1,0,1,1,1,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,83,Male,9,Normal,Normal,1,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0
+COVID-19 / Acute Respiratory Syndrome,36,Male,6,Normal,Normal,1,1,0,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+COVID-19 / Acute Respiratory Syndrome,22,Male,16,Low,High,1,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,63,Female,18,Normal,Low,0,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,11,Male,12,Normal,Low,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,20,Female,17,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+COVID-19 / Acute Respiratory Syndrome,40,Female,17,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,56,Male,5,Low,Normal,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,77,Female,16,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,81,Male,11,Low,Normal,0,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,51,Female,8,Normal,Normal,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,21,Male,12,High,High,1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,82,Male,21,High,High,1,1,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,37,Female,5,Normal,Normal,1,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,21,Male,16,Normal,High,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,78,Female,17,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+COVID-19 / Acute Respiratory Syndrome,38,Female,12,Normal,High,1,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,19,Female,15,High,Low,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,81,Female,16,Normal,High,1,1,0,1,1,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,16,Male,8,High,Normal,1,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,42,Male,7,Normal,Normal,1,0,0,1,0,0,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,37,Male,8,High,Low,1,1,0,1,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,68,Male,19,Low,High,1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,27,Male,11,Normal,Normal,1,1,0,1,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0
+COVID-19 / Acute Respiratory Syndrome,55,Female,18,High,Normal,1,1,0,1,1,0,0,0,0,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,57,Male,6,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,19,Female,8,Normal,High,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0
+COVID-19 / Acute Respiratory Syndrome,20,Female,12,Normal,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,13,Male,7,High,Normal,1,1,0,1,1,0,0,1,0,1,1,1,0,0,1,1,1,0,0,0,0,1,0,1
+COVID-19 / Acute Respiratory Syndrome,70,Male,14,High,Normal,1,1,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,61,Female,16,Normal,Normal,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+COVID-19 / Acute Respiratory Syndrome,67,Male,18,Normal,Normal,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tuberculosis,65,Female,107,Normal,Normal,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,44,Female,92,Normal,Normal,0,1,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,74,Male,29,Normal,Normal,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0
+Tuberculosis,59,Female,110,Normal,Normal,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0
+Tuberculosis,40,Male,91,Normal,Normal,1,1,0,0,0,0,0,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,47,Male,106,Normal,Normal,1,1,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,1
+Tuberculosis,29,Female,54,Normal,Normal,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,64,Female,100,High,Normal,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,44,Male,80,Normal,High,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
+Tuberculosis,49,Male,41,Normal,Low,1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0
+Tuberculosis,25,Female,88,Normal,High,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,55,Female,52,Normal,Normal,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,35,Male,83,Low,Normal,1,1,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,0
+Tuberculosis,58,Male,92,Normal,Normal,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0
+Tuberculosis,20,Female,113,High,Normal,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,59,Female,27,Normal,High,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,71,Female,71,Normal,Normal,1,1,0,0,0,0,0,0,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,54,Male,109,High,High,1,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,22,Female,21,High,Normal,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+Tuberculosis,65,Female,81,Normal,Normal,1,1,0,0,0,1,0,0,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,35,Female,106,Normal,High,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,43,Male,80,Low,High,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Tuberculosis,70,Female,109,Normal,High,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,47,Female,109,High,Normal,1,1,0,0,0,0,0,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0
+Tuberculosis,62,Male,64,Normal,Normal,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,0,0,1,1,0,0,0
+Tuberculosis,52,Female,31,Normal,High,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0
+Tuberculosis,34,Female,110,Normal,Normal,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,28,Female,37,High,Low,1,1,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,60,Female,78,High,Normal,1,1,0,0,0,0,1,0,1,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,48,Male,48,Normal,Normal,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0
+Tuberculosis,43,Male,98,High,Normal,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,56,Male,60,High,Normal,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,37,Female,63,Normal,Normal,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,33,Male,82,High,Low,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,26,Female,36,Normal,High,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,38,Female,42,High,High,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,63,Male,77,Normal,High,1,1,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,75,Female,69,Normal,Normal,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Tuberculosis,42,Male,27,High,Normal,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+Tuberculosis,75,Female,51,Normal,Low,1,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Dengue Fever,48,Male,8,Normal,Normal,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,64,Male,6,High,Normal,1,1,0,1,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Dengue Fever,39,Male,7,Normal,Normal,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,27,Female,4,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,19,Female,7,Normal,Normal,1,1,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,31,Male,11,Low,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,62,Female,12,Normal,High,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,41,Male,10,Normal,Normal,1,1,0,1,1,1,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Dengue Fever,62,Male,5,Normal,High,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,12,Male,9,High,High,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,55,Male,10,Normal,Low,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,58,Female,4,High,Normal,1,1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,57,Male,12,Normal,Normal,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,26,Male,4,High,High,1,1,1,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Dengue Fever,45,Male,5,High,Low,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,14,Female,5,High,Normal,1,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,59,Female,5,Normal,Normal,1,1,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,34,Male,9,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Dengue Fever,29,Male,8,Normal,Normal,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Dengue Fever,59,Male,9,High,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,47,Female,5,High,Normal,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,56,Female,11,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,18,Female,7,Low,High,1,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,32,Female,7,Normal,Low,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,27,Female,11,Normal,Low,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Dengue Fever,49,Female,11,Low,Normal,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,58,Female,12,Normal,Normal,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+Dengue Fever,23,Female,9,Low,Normal,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Dengue Fever,45,Female,4,High,Low,1,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,34,Female,6,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,37,Female,11,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,18,Female,4,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,64,Male,4,Normal,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,42,Male,8,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Dengue Fever,19,Male,10,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Dengue Fever,21,Female,5,Normal,High,0,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,53,Male,6,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,60,Female,9,Normal,High,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,13,Male,4,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dengue Fever,53,Female,11,Normal,Normal,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0
+Malaria,58,Female,12,Normal,Normal,0,1,0,1,1,0,0,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0
+Malaria,42,Female,7,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Malaria,48,Female,11,Low,Normal,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Malaria,37,Male,9,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Malaria,22,Male,4,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Malaria,53,Male,12,Normal,High,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Malaria,33,Male,6,High,Normal,1,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Malaria,7,Male,4,High,Low,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0
+Malaria,23,Female,12,Normal,Normal,0,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Malaria,54,Female,5,Normal,Normal,1,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Malaria,7,Male,11,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Malaria,38,Female,7,Normal,Normal,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Malaria,49,Male,5,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Malaria,70,Female,6,Normal,High,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,45,Male,4,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Malaria,49,Male,14,Normal,Low,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Malaria,41,Female,6,Normal,Low,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,9,Male,5,Normal,Normal,1,1,0,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Malaria,45,Female,11,Low,Normal,1,1,0,1,1,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Malaria,37,Female,12,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Malaria,66,Female,9,Normal,Low,1,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Malaria,33,Female,7,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+Malaria,32,Male,11,High,Low,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Malaria,5,Male,9,Normal,High,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Malaria,48,Male,9,High,Normal,1,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Malaria,46,Male,5,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Malaria,21,Male,12,Low,High,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,64,Male,4,Normal,High,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Malaria,11,Female,11,Low,Normal,1,1,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,23,Female,6,Normal,Normal,0,1,0,1,1,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Malaria,61,Female,6,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Malaria,9,Female,8,High,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Malaria,15,Male,5,Normal,Normal,1,0,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Malaria,68,Female,13,Low,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+Malaria,61,Female,7,Low,High,1,1,0,1,1,1,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Malaria,41,Male,6,Normal,High,1,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,54,Male,6,Normal,Normal,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Malaria,48,Male,8,Low,Normal,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Malaria,37,Male,5,Normal,High,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Malaria,18,Male,4,Normal,Normal,1,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Typhoid Fever,6,Female,8,Normal,Normal,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Typhoid Fever,6,Female,19,Normal,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0
+Typhoid Fever,46,Male,21,Low,High,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Typhoid Fever,37,Male,16,Normal,Normal,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Typhoid Fever,39,Female,10,Normal,High,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,27,Female,16,Low,Low,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,40,Female,14,High,Normal,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,34,Male,9,Normal,Normal,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1
+Typhoid Fever,41,Female,11,Normal,Normal,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Typhoid Fever,60,Female,18,Normal,Normal,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,31,Male,20,Normal,High,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,45,Male,11,Normal,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Typhoid Fever,49,Male,21,High,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Typhoid Fever,42,Male,9,Normal,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0
+Typhoid Fever,37,Female,13,Normal,High,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,49,Male,11,Normal,High,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Typhoid Fever,16,Male,14,Low,High,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,15,Male,11,Low,Normal,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,39,Male,17,Low,High,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
+Typhoid Fever,21,Male,18,Normal,Normal,1,1,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,21,Male,21,High,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,44,Male,16,Normal,High,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Typhoid Fever,33,Female,15,Normal,Normal,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0
+Typhoid Fever,32,Male,8,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,54,Female,10,Normal,Normal,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,9,Female,21,Normal,Low,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,41,Male,9,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0
+Typhoid Fever,49,Male,14,High,Normal,1,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Typhoid Fever,11,Female,11,Normal,High,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Typhoid Fever,41,Female,9,High,Normal,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0
+Typhoid Fever,57,Female,9,High,High,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Typhoid Fever,10,Female,18,Normal,Low,1,1,0,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,40,Female,20,High,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,23,Female,21,High,High,1,1,0,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Typhoid Fever,56,Male,13,Low,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0
+Typhoid Fever,19,Female,8,Low,Normal,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,25,Male,20,Low,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,8,Male,18,High,High,1,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Typhoid Fever,44,Female,10,Low,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Typhoid Fever,7,Female,14,Normal,High,1,1,0,1,0,1,0,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,0
+Gastroenteritis,41,Female,5,Normal,Normal,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,16,Male,5,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,6,Female,5,Normal,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Gastroenteritis,5,Male,6,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,24,Male,3,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,72,Female,2,Normal,Low,1,1,0,1,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,16,Male,4,High,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,10,Female,6,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,54,Female,7,Normal,Normal,0,1,0,1,0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,20,Female,4,Low,Normal,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0
+Gastroenteritis,53,Male,3,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,64,Male,7,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,48,Male,4,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+Gastroenteritis,28,Male,2,Low,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0,0
+Gastroenteritis,50,Female,3,Low,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,57,Male,7,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0
+Gastroenteritis,27,Female,2,Normal,Normal,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,28,Male,3,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,69,Male,2,Normal,Normal,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,68,Male,7,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,28,Female,7,Low,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,20,Male,3,Normal,High,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,48,Male,5,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,60,Male,5,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Gastroenteritis,44,Female,2,Normal,Normal,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0
+Gastroenteritis,64,Male,4,Normal,High,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0,0,0,0
+Gastroenteritis,61,Female,2,High,Normal,1,1,0,1,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,41,Male,7,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,26,Female,3,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,29,Male,7,High,Normal,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,55,Female,4,Normal,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,22,Female,3,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Gastroenteritis,16,Male,5,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,22,Female,3,Normal,Normal,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,15,Female,3,High,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,57,Male,7,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0
+Gastroenteritis,10,Male,5,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+Gastroenteritis,14,Male,2,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0
+Gastroenteritis,19,Male,3,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,1,0
+Gastroenteritis,53,Male,2,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+Appendicitis,18,Female,3,Normal,Low,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,26,Female,3,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,35,Male,1,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,17,Male,2,Normal,High,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,47,Male,1,High,Normal,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,10,Male,2,Low,High,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Appendicitis,31,Female,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,11,Male,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,32,Male,2,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Appendicitis,18,Female,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,39,Female,3,High,Normal,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,1,0
+Appendicitis,45,Female,1,High,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,33,Female,1,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Appendicitis,17,Male,2,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Appendicitis,17,Male,3,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,24,Female,3,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Appendicitis,25,Male,3,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,23,Male,2,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,43,Female,4,Low,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,16,Male,4,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1
+Appendicitis,13,Male,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Appendicitis,41,Male,3,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,31,Female,3,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0
+Appendicitis,46,Female,1,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0,0
+Appendicitis,10,Female,2,High,Low,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,35,Female,4,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,17,Female,4,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0
+Appendicitis,39,Male,2,Normal,High,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,23,Female,4,Normal,Normal,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0
+Appendicitis,41,Female,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,28,Male,4,Normal,Normal,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Appendicitis,18,Female,3,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,26,Male,2,Normal,Normal,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,0,0,0,0
+Appendicitis,12,Female,3,High,Normal,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,0
+Appendicitis,16,Female,4,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Appendicitis,29,Male,2,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,15,Male,3,High,Normal,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Appendicitis,37,Male,2,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,35,Female,2,High,Low,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0
+Appendicitis,10,Female,1,Normal,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0
+Crohn's Disease,52,Male,108,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,48,Female,54,Normal,Normal,1,1,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,43,Female,105,Normal,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0
+Crohn's Disease,37,Female,66,Normal,Low,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,1,0,0
+Crohn's Disease,18,Male,68,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0
+Crohn's Disease,31,Male,62,High,Low,1,1,0,0,0,0,1,0,1,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,25,Female,54,High,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Crohn's Disease,45,Male,120,Normal,Normal,1,1,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,53,Male,34,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,48,Male,89,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,0
+Crohn's Disease,21,Male,20,Low,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,55,Male,33,High,Low,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,0,1,0,0,0,0
+Crohn's Disease,48,Female,74,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,1,0,0,0
+Crohn's Disease,21,Female,37,High,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,57,Male,16,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0,0
+Crohn's Disease,31,Female,50,High,High,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0
+Crohn's Disease,33,Male,105,High,Normal,1,1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,19,Male,77,Normal,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,1,0
+Crohn's Disease,21,Female,72,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,36,Male,112,High,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,48,Male,106,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,43,Male,46,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,26,Female,75,Normal,High,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,16,Female,109,Normal,Low,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Crohn's Disease,27,Female,37,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0
+Crohn's Disease,53,Female,30,Normal,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,55,Male,16,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,1,0,0,0
+Crohn's Disease,49,Female,88,Normal,High,1,1,0,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,59,Female,93,Normal,High,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,54,Female,21,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0
+Crohn's Disease,32,Male,54,Normal,High,1,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1
+Crohn's Disease,21,Male,40,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,15,Male,112,Normal,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,49,Female,113,Normal,Normal,1,1,0,1,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,55,Male,35,High,Low,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,36,Female,88,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0
+Crohn's Disease,17,Male,65,Normal,Normal,1,1,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0
+Crohn's Disease,56,Male,50,High,Low,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Crohn's Disease,19,Male,55,High,Normal,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Crohn's Disease,15,Female,59,High,High,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,1,0,0,0
+Ulcerative Colitis,55,Female,120,High,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,61,Male,110,Normal,Normal,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,44,Male,18,Normal,Normal,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0
+Ulcerative Colitis,50,Male,56,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0
+Ulcerative Colitis,21,Male,96,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
+Ulcerative Colitis,49,Female,85,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,56,Female,28,Normal,High,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,64,Female,67,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0
+Ulcerative Colitis,21,Female,66,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0
+Ulcerative Colitis,39,Female,96,Normal,Normal,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,35,Female,55,High,Normal,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,54,Male,65,High,Low,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0
+Ulcerative Colitis,62,Male,79,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,29,Female,109,Normal,Normal,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,53,Male,65,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,1,0,0
+Ulcerative Colitis,59,Male,65,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,60,Female,51,Low,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0
+Ulcerative Colitis,52,Female,14,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,38,Male,26,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,35,Male,50,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Ulcerative Colitis,28,Male,24,Normal,Normal,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1
+Ulcerative Colitis,33,Female,105,Normal,High,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+Ulcerative Colitis,46,Female,33,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,20,Female,19,Low,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+Ulcerative Colitis,47,Female,32,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,49,Male,66,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1
+Ulcerative Colitis,20,Female,107,Normal,Normal,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,54,Female,64,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+Ulcerative Colitis,42,Male,94,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,44,Male,16,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,42,Male,107,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,49,Male,94,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,61,Female,40,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,54,Female,46,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0
+Ulcerative Colitis,56,Female,39,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,46,Female,40,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,45,Female,15,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,56,Female,46,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,60,Female,56,Normal,Normal,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0
+Ulcerative Colitis,50,Female,30,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Urinary Tract Infection (UTI),35,Male,3,High,Normal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),66,Male,5,Normal,Low,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,1
+Urinary Tract Infection (UTI),69,Female,3,Normal,Low,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1
+Urinary Tract Infection (UTI),56,Male,7,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),49,Male,6,Low,Normal,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0
+Urinary Tract Infection (UTI),57,Female,5,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0
+Urinary Tract Infection (UTI),62,Male,2,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),69,Female,5,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0
+Urinary Tract Infection (UTI),68,Male,4,High,High,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0
+Urinary Tract Infection (UTI),22,Male,5,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),65,Female,6,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),56,Female,3,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),74,Female,2,Normal,Normal,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+Urinary Tract Infection (UTI),66,Female,3,Low,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),48,Male,2,Low,Low,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),67,Female,7,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0
+Urinary Tract Infection (UTI),29,Female,4,High,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),62,Female,7,Normal,High,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),75,Female,5,Normal,Normal,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+Urinary Tract Infection (UTI),75,Male,5,Normal,High,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),31,Female,6,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0
+Urinary Tract Infection (UTI),71,Male,4,Low,Normal,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),38,Female,2,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),69,Female,5,High,Normal,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),21,Female,6,Normal,Normal,1,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,1,0
+Urinary Tract Infection (UTI),26,Female,4,Normal,Low,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0
+Urinary Tract Infection (UTI),64,Male,4,High,Normal,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),53,Male,3,Normal,High,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0
+Urinary Tract Infection (UTI),55,Male,3,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),23,Female,7,Normal,Normal,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),24,Male,3,High,Normal,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),25,Female,2,Low,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),54,Male,6,High,Normal,1,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),64,Female,2,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,1,0
+Urinary Tract Infection (UTI),55,Female,2,Normal,Normal,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),21,Female,4,Normal,Normal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Urinary Tract Infection (UTI),73,Female,3,Low,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),57,Female,7,Low,Normal,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),26,Male,4,Normal,High,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+Urinary Tract Infection (UTI),74,Female,3,Normal,High,1,1,0,0,0,1,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0
+Measles,5,Female,7,Low,Low,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Measles,8,Male,11,Normal,Normal,1,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0
+Measles,22,Male,14,Normal,Normal,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,22,Female,7,Normal,Normal,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,12,Male,12,Low,Low,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Measles,13,Male,7,Normal,Normal,1,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Measles,11,Female,10,High,Low,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,9,Female,10,High,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Measles,4,Male,14,Normal,High,1,1,1,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Measles,3,Female,10,Normal,Normal,1,0,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,9,Female,11,High,Normal,1,1,1,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Measles,17,Male,13,High,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,22,Male,10,Normal,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Measles,24,Female,10,High,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,2,Male,12,Normal,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,7,Male,11,High,High,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Measles,10,Male,9,Normal,Normal,1,0,1,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Measles,8,Female,9,Normal,Normal,1,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,2,Female,8,Low,High,1,1,0,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,25,Female,10,Normal,High,1,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+Measles,12,Male,13,Normal,Normal,1,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,10,Female,14,Normal,Normal,1,1,1,1,0,1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Measles,15,Female,8,Normal,Low,1,0,0,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,12,Male,9,Normal,Normal,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Measles,18,Male,10,Normal,High,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,28,Female,14,High,Normal,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,8,Male,11,Normal,High,0,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,14,Female,10,Normal,Normal,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,26,Female,12,Normal,Normal,1,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,13,Male,8,Normal,Normal,1,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Measles,10,Female,14,High,Normal,1,1,1,0,0,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0
+Measles,12,Male,10,Normal,High,1,1,1,0,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Measles,21,Female,7,Normal,Normal,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Measles,13,Female,8,Low,High,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,5,Male,14,Normal,High,1,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Measles,18,Female,10,Normal,Normal,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Measles,19,Male,7,Normal,Low,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+Measles,13,Female,7,High,Normal,1,0,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Measles,14,Male,9,Low,Normal,1,0,1,1,0,1,1,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Measles,24,Male,14,High,High,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chickenpox,24,Female,9,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Chickenpox,28,Female,9,Normal,High,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,16,Male,7,High,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,18,Female,8,High,Normal,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,24,Male,9,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Chickenpox,8,Female,6,High,High,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Chickenpox,23,Female,11,High,Low,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,11,Female,7,Normal,High,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,25,Female,6,High,High,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,33,Female,14,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,13,Female,7,High,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,11,Female,11,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+Chickenpox,35,Female,11,Normal,High,1,1,0,1,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Chickenpox,19,Male,5,High,High,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,9,Male,7,High,Normal,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chickenpox,21,Male,11,High,Normal,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chickenpox,26,Male,5,Normal,Normal,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Chickenpox,18,Female,11,High,High,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,30,Female,10,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,31,Male,10,Normal,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Chickenpox,24,Female,7,Normal,Normal,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,9,Female,12,High,Low,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,14,Male,5,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,31,Female,9,Low,Normal,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Chickenpox,13,Male,7,High,Normal,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,3,Female,9,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1
+Chickenpox,21,Male,6,High,Normal,1,1,0,1,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+Chickenpox,16,Male,6,Normal,Normal,1,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,25,Female,13,Normal,Low,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Chickenpox,19,Male,5,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,26,Male,11,Normal,Normal,1,1,0,1,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+Chickenpox,28,Male,10,Normal,Normal,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1
+Chickenpox,16,Male,10,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,6,Male,8,Normal,Normal,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Chickenpox,33,Male,10,Normal,High,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,5,Male,8,High,High,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Chickenpox,34,Male,7,Normal,High,1,1,0,0,1,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,5,Female,5,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,2,Female,9,Normal,High,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Chickenpox,21,Male,12,Normal,Low,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1
+Lyme Disease,24,Female,7,High,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Lyme Disease,20,Male,21,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,68,Male,9,Normal,Normal,1,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,68,Female,24,Low,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,62,Female,16,Low,Normal,1,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,12,Female,8,High,Normal,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,49,Male,17,Normal,Normal,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,18,Female,28,Normal,High,1,1,0,1,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Lyme Disease,39,Female,29,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,35,Female,19,Normal,Normal,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Lyme Disease,31,Male,20,High,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+Lyme Disease,40,Male,28,High,Low,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,18,Female,25,Normal,Normal,1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,21,Female,23,Low,High,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,46,Male,17,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,51,Female,26,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,57,Male,25,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,14,Male,14,Normal,Normal,1,1,0,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,64,Male,26,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,15,Female,19,Normal,Normal,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Lyme Disease,48,Female,17,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,40,Male,10,Normal,Normal,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,26,Female,28,Normal,High,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,63,Male,22,High,Normal,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+Lyme Disease,16,Male,30,Low,High,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1
+Lyme Disease,16,Male,30,Normal,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,25,Male,28,High,High,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,40,Male,21,High,High,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Lyme Disease,61,Male,29,High,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,35,Male,21,Low,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0
+Lyme Disease,54,Female,21,High,High,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+Lyme Disease,68,Male,21,Low,Normal,1,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,62,Female,8,Normal,High,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Lyme Disease,62,Female,29,Low,Normal,1,1,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,46,Female,24,High,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,17,Female,12,High,Normal,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,46,Male,9,Normal,Low,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Lyme Disease,69,Male,28,Normal,High,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,61,Female,10,Normal,Low,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Lyme Disease,42,Male,11,Normal,High,1,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),45,Female,173,High,Normal,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),17,Male,152,Low,High,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),36,Male,151,High,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),24,Female,96,Normal,Normal,1,1,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0
+Systemic Lupus Erythematosus (SLE),40,Male,67,Low,High,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),47,Female,134,Normal,Normal,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),44,Male,180,High,High,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),42,Female,36,High,Normal,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),37,Female,74,Normal,Normal,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),44,Male,42,Low,Low,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),27,Male,64,Normal,Normal,1,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),41,Female,174,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Systemic Lupus Erythematosus (SLE),21,Male,51,Normal,Normal,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),30,Male,171,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),34,Male,51,Normal,Normal,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),28,Female,102,Normal,Normal,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),44,Female,28,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),52,Female,109,High,High,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),35,Male,141,Low,High,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+Systemic Lupus Erythematosus (SLE),33,Female,28,Normal,Normal,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),47,Female,151,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),48,Female,17,Normal,Normal,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0
+Systemic Lupus Erythematosus (SLE),51,Male,40,Normal,Normal,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),20,Female,174,High,Normal,0,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+Systemic Lupus Erythematosus (SLE),21,Female,81,High,Normal,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),33,Female,148,Normal,High,1,1,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),36,Female,129,High,Normal,1,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0
+Systemic Lupus Erythematosus (SLE),40,Male,25,High,High,1,1,0,0,1,1,1,1,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0
+Systemic Lupus Erythematosus (SLE),49,Male,62,High,Normal,1,1,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),51,Female,40,High,High,1,1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),36,Female,73,Normal,Normal,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),24,Male,97,High,Normal,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+Systemic Lupus Erythematosus (SLE),39,Female,71,Normal,High,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),53,Male,157,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),17,Male,149,Normal,Low,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),25,Female,159,Low,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Systemic Lupus Erythematosus (SLE),42,Female,83,Normal,High,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),43,Female,124,Normal,Normal,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),35,Male,138,Normal,High,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0
+Systemic Lupus Erythematosus (SLE),18,Female,97,Normal,Normal,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,65,Male,274,Normal,High,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,55,Male,92,Normal,Normal,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,51,Female,303,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Rheumatoid Arthritis,57,Female,89,Normal,High,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,75,Male,229,Low,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,52,Female,318,Low,High,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0
+Rheumatoid Arthritis,55,Female,46,High,Normal,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0
+Rheumatoid Arthritis,34,Male,41,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0
+Rheumatoid Arthritis,57,Female,136,High,Normal,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Rheumatoid Arthritis,75,Male,143,Normal,High,0,1,0,0,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,49,Female,327,Low,High,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,62,Female,263,Normal,Normal,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,32,Female,72,Low,Normal,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,53,Female,53,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,63,Male,49,High,Normal,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Rheumatoid Arthritis,37,Female,322,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,64,Male,150,Low,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,40,Male,99,Normal,High,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,50,Male,289,High,Low,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+Rheumatoid Arthritis,70,Female,281,Normal,Normal,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,51,Female,175,Normal,Normal,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Rheumatoid Arthritis,53,Male,270,High,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,45,Female,161,Normal,Normal,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0
+Rheumatoid Arthritis,45,Male,319,Normal,High,0,1,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0
+Rheumatoid Arthritis,43,Male,188,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Rheumatoid Arthritis,33,Female,104,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Rheumatoid Arthritis,48,Male,242,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1
+Rheumatoid Arthritis,30,Male,243,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0
+Rheumatoid Arthritis,71,Male,47,Normal,High,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,55,Female,73,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,68,Male,261,High,Normal,1,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Rheumatoid Arthritis,35,Female,118,Normal,High,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,35,Male,175,Normal,High,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+Rheumatoid Arthritis,63,Male,205,Normal,Normal,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,46,Male,154,Normal,Low,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,72,Male,131,High,High,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Rheumatoid Arthritis,48,Male,160,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Rheumatoid Arthritis,69,Male,331,Low,Normal,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Rheumatoid Arthritis,74,Female,158,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Rheumatoid Arthritis,69,Male,295,Normal,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Migraine,55,Female,2,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,25,Male,4,Normal,Low,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,25,Female,2,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0
+Migraine,20,Female,4,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0
+Migraine,23,Male,2,High,High,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,45,Female,3,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,49,Male,4,Normal,High,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0
+Migraine,20,Male,2,Normal,Normal,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,54,Male,4,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,23,Male,2,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,44,Female,1,Normal,High,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,17,Male,2,Normal,Normal,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,27,Female,4,High,High,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Migraine,39,Male,3,High,Normal,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Migraine,15,Female,1,Normal,High,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,60,Male,2,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,44,Female,1,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,16,Male,3,High,High,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Migraine,22,Male,1,Low,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,32,Female,4,Normal,High,0,1,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,21,Male,4,Low,High,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,27,Male,3,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,28,Male,2,Normal,High,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,50,Male,2,High,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,42,Female,4,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,46,Female,1,Normal,Normal,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Migraine,37,Female,2,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Migraine,17,Male,1,Low,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,56,Male,2,Normal,Low,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Migraine,57,Male,4,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0
+Migraine,46,Female,4,Low,High,0,1,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,58,Male,3,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
+Migraine,39,Male,3,Normal,Low,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,16,Female,3,High,High,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1
+Migraine,29,Male,1,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0
+Migraine,43,Female,3,High,High,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Migraine,56,Male,3,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,58,Female,2,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Migraine,39,Female,2,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0
+Migraine,20,Female,2,High,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+Hypertension,68,Male,232,High,High,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0
+Hypertension,84,Male,356,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0
+Hypertension,40,Female,256,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,75,Female,165,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,64,Male,328,Normal,High,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,69,Male,235,Normal,High,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,71,Female,127,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,80,Male,38,Normal,Low,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,44,Male,160,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,43,Female,344,High,Low,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,60,Female,177,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,62,Male,164,Normal,High,1,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,74,Female,178,Normal,Normal,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hypertension,55,Female,98,Low,Low,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,82,Male,181,Normal,Normal,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,35,Male,146,Normal,High,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,39,Male,45,High,Normal,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,41,Female,51,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,44,Male,189,Normal,Normal,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0
+Hypertension,66,Male,194,High,High,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1
+Hypertension,42,Female,228,Normal,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,83,Female,135,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,49,Female,281,Low,Normal,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1
+Hypertension,36,Female,236,Normal,High,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,62,Male,140,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,42,Male,251,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hypertension,51,Female,67,Normal,Normal,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,70,Female,310,High,High,0,1,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,73,Female,74,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Hypertension,37,Male,90,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+Hypertension,78,Female,268,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,48,Female,240,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hypertension,63,Male,193,Normal,High,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0
+Hypertension,48,Female,303,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0
+Hypertension,44,Male,214,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,83,Male,65,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,65,Female,204,Normal,High,0,1,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,47,Male,266,Normal,Normal,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Hypertension,64,Female,305,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+Hypertension,85,Male,161,Normal,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0
+Coronary Artery Disease,48,Female,106,Normal,High,0,1,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,58,Female,20,Normal,High,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+Coronary Artery Disease,78,Male,128,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,51,Male,61,High,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,52,Male,21,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,73,Male,140,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,51,Male,123,Normal,High,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,52,Female,84,Normal,Low,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,48,Male,15,Normal,High,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1
+Coronary Artery Disease,81,Male,179,High,Low,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,78,Female,30,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,46,Male,132,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,66,Female,37,High,Normal,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,54,Female,180,Normal,High,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,65,Male,116,High,High,0,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,61,Male,59,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,56,Female,158,Normal,Low,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,63,Male,106,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1,0,0,0
+Coronary Artery Disease,51,Male,154,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,74,Male,98,Normal,Normal,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,69,Male,167,Normal,Normal,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,61,Male,149,High,Normal,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,64,Female,133,High,Normal,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,81,Male,37,Normal,High,0,1,0,0,0,1,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,82,Female,110,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0
+Coronary Artery Disease,65,Male,51,High,High,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0
+Coronary Artery Disease,80,Female,133,Normal,High,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,70,Male,125,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,48,Male,105,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,82,Male,45,Normal,Normal,1,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,75,Male,73,Normal,High,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,45,Female,159,High,High,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1
+Coronary Artery Disease,82,Female,131,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,62,Male,41,Normal,High,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,73,Male,67,Normal,High,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0
+Coronary Artery Disease,61,Male,173,High,Normal,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,81,Male,41,Normal,Normal,0,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,1
+Coronary Artery Disease,78,Male,166,High,Normal,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0
+Coronary Artery Disease,52,Male,15,High,Normal,0,1,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+Coronary Artery Disease,70,Male,173,Normal,Normal,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,58,Female,1,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Stroke,84,Male,4,High,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0
+Stroke,68,Female,1,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,64,Male,6,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0
+Stroke,87,Female,1,High,High,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,74,Male,6,Low,Normal,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,72,Female,6,High,Low,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,52,Female,7,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,63,Female,1,Normal,High,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Stroke,52,Female,1,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Stroke,63,Male,3,Normal,Normal,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,58,Female,4,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,60,Female,3,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0
+Stroke,70,Male,5,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0
+Stroke,72,Female,4,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,56,Female,6,Normal,High,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+Stroke,67,Female,4,Normal,Normal,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,89,Male,6,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Stroke,68,Female,2,Normal,High,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0
+Stroke,58,Male,1,High,High,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Stroke,65,Male,7,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stroke,73,Female,5,Normal,High,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0
+Stroke,87,Male,7,Normal,Normal,0,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,79,Male,7,Normal,Normal,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,64,Female,7,Normal,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,79,Male,2,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,83,Female,2,High,Low,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1
+Stroke,50,Female,6,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,58,Male,5,Low,Normal,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stroke,80,Female,1,Low,Normal,1,1,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,79,Male,5,Normal,High,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,89,Male,3,Normal,Normal,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0
+Stroke,70,Male,6,Normal,Low,1,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+Stroke,70,Female,6,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,73,Male,4,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0
+Stroke,59,Male,2,Low,Normal,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Stroke,81,Female,2,Normal,High,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,0,0,0,0
+Stroke,88,Female,6,Low,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,56,Male,7,Normal,High,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Stroke,70,Male,3,High,Normal,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Diabetes Mellitus,82,Female,92,Normal,High,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+Diabetes Mellitus,61,Female,80,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+Diabetes Mellitus,36,Female,281,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,76,Male,101,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,69,Male,212,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,78,Male,305,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,58,Male,89,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+Diabetes Mellitus,32,Male,356,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+Diabetes Mellitus,25,Female,57,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,26,Female,165,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,84,Female,177,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,59,Male,288,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,68,Female,120,Normal,Low,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0
+Diabetes Mellitus,35,Male,233,High,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,53,Male,175,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,56,Female,190,Low,High,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,41,Female,75,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,34,Female,38,Normal,Normal,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,67,Male,285,Normal,High,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0
+Diabetes Mellitus,65,Male,114,Normal,High,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,81,Male,243,Normal,Normal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0
+Diabetes Mellitus,73,Male,72,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,65,Female,76,High,High,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,60,Male,277,Normal,High,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0
+Diabetes Mellitus,79,Male,301,Normal,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,25,Female,174,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,71,Male,114,Normal,Low,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1
+Diabetes Mellitus,35,Female,344,Normal,Normal,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0
+Diabetes Mellitus,52,Male,342,Normal,High,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,33,Female,214,Normal,High,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,79,Male,320,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,75,Male,267,Normal,Low,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,53,Male,99,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1
+Diabetes Mellitus,77,Female,324,Normal,High,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,39,Female,189,High,Low,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,42,Male,215,High,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0
+Diabetes Mellitus,35,Female,92,Low,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0
+Diabetes Mellitus,85,Female,300,Normal,Normal,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
+Diabetes Mellitus,77,Female,167,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
+Diabetes Mellitus,25,Female,85,Low,Normal,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Osteoporosis,57,Male,262,High,Normal,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,72,Male,225,High,High,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Osteoporosis,72,Female,351,Normal,Normal,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,63,Male,219,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,75,Male,174,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,82,Male,142,Normal,Normal,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,67,Male,252,High,Normal,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,87,Female,206,Normal,Low,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,58,Female,94,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,58,Female,255,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0
+Osteoporosis,61,Male,123,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+Osteoporosis,78,Female,292,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,71,Male,133,Normal,Normal,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,69,Male,310,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,72,Male,306,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,60,Male,272,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,63,Female,134,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,66,Male,348,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Osteoporosis,55,Male,156,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Osteoporosis,75,Female,177,High,High,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,60,Male,308,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,86,Male,171,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,73,Male,337,Normal,Normal,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,79,Female,350,High,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,57,Female,248,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,57,Male,129,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+Osteoporosis,61,Female,237,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,87,Male,333,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,58,Female,290,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+Osteoporosis,89,Male,149,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,82,Female,258,High,High,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Osteoporosis,83,Female,152,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,69,Female,139,Normal,Low,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,81,Male,192,High,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,82,Male,187,High,Normal,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,74,Male,252,Normal,Normal,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Osteoporosis,64,Male,105,Normal,High,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,67,Female,139,Normal,Normal,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Osteoporosis,70,Female,193,High,Normal,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Osteoporosis,58,Male,148,High,Normal,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1
+Allergic Rhinitis,40,Male,31,Normal,Normal,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+Allergic Rhinitis,65,Female,31,Normal,High,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1
+Allergic Rhinitis,52,Female,54,High,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,57,Female,11,Normal,Normal,0,1,1,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+Allergic Rhinitis,11,Male,41,Normal,Low,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,60,Male,15,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,43,Male,59,Normal,Low,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1
+Allergic Rhinitis,46,Female,60,Normal,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,36,Male,52,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,39,Female,19,Normal,Normal,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,11,Male,19,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,16,Male,22,Normal,High,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,33,Female,46,Normal,High,1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1
+Allergic Rhinitis,62,Male,49,Normal,Normal,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Allergic Rhinitis,58,Female,17,High,High,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,25,Male,43,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,42,Male,40,High,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,28,Male,60,Normal,Low,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,8,Female,29,Normal,High,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,41,Female,51,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,62,Female,48,Normal,Normal,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,25,Female,54,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+Allergic Rhinitis,53,Male,25,Normal,High,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,46,Female,27,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,21,Male,40,Normal,High,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+Allergic Rhinitis,11,Male,40,High,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+Allergic Rhinitis,59,Female,27,Normal,High,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,42,Female,47,Normal,Normal,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,56,Male,46,Normal,Normal,0,1,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,23,Male,10,Normal,Low,0,1,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,11,Female,49,High,Normal,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,32,Male,30,Normal,Normal,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,62,Female,39,Normal,High,0,1,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+Allergic Rhinitis,38,Male,60,High,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+Allergic Rhinitis,35,Male,48,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,32,Female,21,High,Normal,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,51,Female,50,Normal,Normal,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,60,Male,46,High,High,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,44,Male,50,Normal,Normal,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+Allergic Rhinitis,30,Male,13,Normal,High,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,54,Female,14,Normal,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,66,Female,11,Normal,Low,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,47,Female,12,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,48,Male,20,Normal,Low,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+Sinusitis,60,Male,10,Low,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,70,Female,16,Normal,Low,1,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Sinusitis,71,Female,7,High,Normal,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,62,Female,14,Normal,Low,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,73,Female,12,High,Normal,1,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,50,Male,18,Normal,Low,1,1,1,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,47,Male,19,Normal,Low,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,51,Female,8,Normal,Normal,1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+Sinusitis,39,Male,13,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,71,Male,11,Normal,Normal,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,11,Male,11,Normal,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,57,Male,12,Low,High,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,75,Female,20,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Sinusitis,39,Female,18,Low,Normal,1,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,14,Male,7,Normal,High,1,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0
+Sinusitis,41,Male,19,Normal,Low,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+Sinusitis,74,Female,20,Normal,Low,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,55,Female,11,Normal,Normal,1,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+Sinusitis,48,Female,8,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+Sinusitis,14,Male,11,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+Sinusitis,47,Female,11,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,58,Female,18,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,29,Male,14,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Sinusitis,21,Male,19,Normal,Low,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,42,Female,17,High,Normal,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,65,Male,20,High,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,28,Male,12,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,67,Male,21,High,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Sinusitis,61,Male,15,Normal,High,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Sinusitis,22,Female,8,Normal,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,20,Female,17,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,41,Male,7,Low,Normal,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,30,Female,11,Normal,Low,1,1,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,0,0,0,0,0
+Sinusitis,67,Female,8,Normal,Normal,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Sinusitis,49,Male,16,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,0,0,0
+Sinusitis,14,Female,18,Normal,Normal,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
