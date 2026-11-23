@@ -1,6 +1,9 @@
 from backend.app.api.endpoints.profile import router as profile_router
 from backend.services.symptom_analyzer import analyze_symptoms
 from backend.services.predict import predict_outcome
+from backend.services.expanded_predict import (
+    predict_outcome as predict_expanded_diseases
+)
 
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
@@ -152,81 +155,30 @@ class SymptomRequest(BaseModel):
         default=None,
         max_length=500
     )
-    @field_validator("symptoms")
-    @classmethod
-    def validate_symptoms(cls, symptoms):
 
-        # Remove extra spaces and convert to lowercase
-        symptoms = [
-            symptom.strip().lower()
-            for symptom in symptoms
-        ]
-
-        # Reject blank symptom names
-        if any(not symptom for symptom in symptoms):
-            raise ValueError("Symptom names cannot be blank.")
-
-        # Reject duplicate symptoms
-        if len(symptoms) != len(set(symptoms)):
-            raise ValueError("Duplicate symptoms are not allowed.")
-
-        # Reject unsupported symptoms
-        unsupported = [
-            symptom for symptom in symptoms
-            if symptom not in SUPPORTED_SYMPTOMS
-        ]
-
-        if unsupported:
-            raise ValueError(
-                f"Unsupported symptoms: {', '.join(unsupported)}. "
-                "Supported symptoms are: fever, cough, fatigue, "
-                "difficulty breathing."
-            )
-
-        return symptoms
-
-
-    # Validate submitted symptoms
     @field_validator("symptoms", mode="before")
     @classmethod
     def validate_symptoms(cls, symptoms):
 
         if not isinstance(symptoms, list):
-            raise ValueError(
-                "Symptoms must be provided as a list."
-            )
+            raise ValueError("Symptoms must be provided as a list.")
 
-        if len(symptoms) == 0:
-            raise ValueError(
-                "Please select at least one symptom."
-            )
+        symptoms = [
+            symptom.strip().lower()
+            for symptom in symptoms
+        ]
 
-        normalized_symptoms = []
+        if not symptoms:
+            raise ValueError("At least one symptom is required.")
 
-        for symptom in symptoms:
+        if any(not symptom for symptom in symptoms):
+            raise ValueError("Symptom names cannot be blank.")
 
-            if not isinstance(symptom, str):
-                raise ValueError(
-                    "Each symptom must be a text value."
-                )
-
-            symptom = symptom.strip().lower()
-
-            if not symptom:
-                raise ValueError(
-                    "Symptom names cannot be blank."
-                )
-
-            normalized_symptoms.append(symptom)
-
-        if len(normalized_symptoms) != len(set(normalized_symptoms)):
-            raise ValueError(
-                "Duplicate symptoms are not allowed."
-            )
+        if len(symptoms) != len(set(symptoms)):
+            raise ValueError("Duplicate symptoms are not allowed.")
 
         unsupported = [
-            symptom
-            for symptom in normalized_symptoms
+            symptom for symptom in symptoms
             if symptom not in SUPPORTED_SYMPTOMS
         ]
 
@@ -235,8 +187,48 @@ class SymptomRequest(BaseModel):
                 f"Unsupported symptoms: {', '.join(unsupported)}."
             )
 
-        return normalized_symptoms
+        return symptoms
+class ExpandedPredictionRequest(BaseModel):
+    patient_name: Optional[str] = Field(default=None, max_length=100)
 
+    age: int = Field(ge=0, le=120)
+
+    gender: str
+
+    symptoms: list[str] = Field(min_length=1)
+
+    blood_pressure: str = "Normal"
+
+    cholesterol_level: str = "Normal"
+
+    @field_validator("gender")
+    @classmethod
+    def validate_gender(cls, value):
+        value = value.strip().capitalize()
+        if value not in ["Male", "Female"]:
+            raise ValueError("Gender must be Male or Female.")
+        return value
+
+    @field_validator("blood_pressure", "cholesterol_level")
+    @classmethod
+    def validate_health_levels(cls, value):
+        value = value.strip().capitalize()
+        if value not in ["Low", "Normal", "High"]:
+            raise ValueError("Value must be Low, Normal or High.")
+        return value
+
+    @field_validator("symptoms")
+    @classmethod
+    def validate_expanded_symptoms(cls, value):
+        cleaned = [symptom.strip() for symptom in value]
+
+        if any(not symptom for symptom in cleaned):
+            raise ValueError("Symptom names cannot be blank.")
+
+        if len(cleaned) != len(set(s.lower() for s in cleaned)):
+            raise ValueError("Duplicate symptoms are not allowed.")
+
+        return cleaned
 
 # --------------------------------------------------
 # 6. HOME API
@@ -591,3 +583,42 @@ def predict_patient_outcome(
             "Not a medical diagnosis."
         )
     }
+# --------------------------------------------------
+# 15. EXPANDED DISEASE PREDICTION API
+# --------------------------------------------------
+
+@app.post("/predict-diseases")
+def predict_expanded_patient_diseases(
+    patient: ExpandedPredictionRequest,
+    current_user: User = Depends(get_current_user)
+):
+
+    patient_data = {
+        "patient_name": patient.patient_name,
+        "age": patient.age,
+        "gender": patient.gender,
+        "symptoms": patient.symptoms,
+        "blood_pressure": patient.blood_pressure,
+        "cholesterol_level": patient.cholesterol_level
+    }
+
+    try:
+        result = predict_expanded_diseases(patient_data)
+
+        return {
+            "message": "Expanded disease prediction completed",
+            "prediction_result": result,
+            "notice": result["notice"]
+        }
+
+    except ValueError as error:
+        raise HTTPException(
+            status_code=422,
+            detail=str(error)
+        )
+
+    except Exception:
+        raise HTTPException(
+            status_code=500,
+            detail="Unable to generate expanded disease prediction."
+        )

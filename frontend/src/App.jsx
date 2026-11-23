@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { predictPatient, getPatients, savePatient, logoutUser } from './services/api'
+import { predictExpandedDiseases, getPatients, savePatient, logoutUser } from './services/api'
 import './App.css'
 import Auth from './components/Auth'
 import AdminDashboard from './pages/AdminDashboard'
@@ -143,8 +143,7 @@ try {
   await savePatient(patientData, token)
 
   // Get disease prediction
-  const result = await predictPatient(patientData)
-  setPrediction(result)
+   setPrediction(await predictExpandedDiseases(patientData, token))
 
   // Refresh patient records
 const data = await getPatients(token)
@@ -205,6 +204,7 @@ if (user.role?.toLowerCase() === 'clinic') {
     />
   )
 }
+
   return (
     <div className="app-container">
 
@@ -462,30 +462,66 @@ if (user.role?.toLowerCase() === 'clinic') {
 
 
 
+{prediction && (
+  <div className="result-card">
+    <h2>Disease Prediction Results</h2>
 
-        {prediction && (
-          <div className="result-card">
-            <h2>Prediction Results</h2>
+    <p>
+      <strong>Primary Prediction:</strong>{' '}
+      {prediction.prediction_result?.prediction}
+    </p>
 
+    <h3>Top 3 Possible Matches</h3>
+
+    {prediction.prediction_result?.top_predictions?.map(
+      (item, index) => (
+        <div key={index} className="prediction-item">
+          <h4>
+            {index + 1}. {item.disease}
+          </h4>
+
+          <p>
+            <strong>Model score:</strong>{' '}
+            {item.probability_percent}
+          </p>
+
+          {item.category && (
             <p>
-              <strong>Prediction:</strong>{' '}
-              {prediction.prediction_result?.prediction}
+              <strong>Category:</strong> {item.category}
             </p>
+          )}
 
+          {item.clinical_reason && (
             <p>
-              <strong>Patient Age:</strong> {prediction.patient_age}
+              <strong>Reason:</strong> {item.clinical_reason}
             </p>
+          )}
 
+          {item.matched_symptoms?.length > 0 && (
             <p>
-              <strong>Symptoms:</strong>{' '}
-              {prediction.symptoms?.join(', ')}
+              <strong>Matched symptoms:</strong>{' '}
+              {item.matched_symptoms.join(', ')}
             </p>
+          )}
+        </div>
+      )
+    )}
 
-            <p className="medical-notice">
-              {prediction.notice}
-            </p>
-          </div>
-        )}
+    {prediction.prediction_result?.recommended_action && (
+      <p>
+        <strong>Recommended action:</strong>{' '}
+        {prediction.prediction_result.recommended_action}
+      </p>
+    )}
+
+    {prediction.notice && (
+      <p className="medical-notice">
+        {prediction.notice}
+      </p>
+    )}
+  </div>
+)}
+
 
         <footer>
           © 2026 MedAssist AI | Educational Healthcare Project

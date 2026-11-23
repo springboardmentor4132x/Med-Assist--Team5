@@ -33,11 +33,34 @@ export const predictPatient = async (patientData) => {
 
     return data;
 
+
   } catch (error) {
     console.error("Prediction API Error:", error);
     throw error;
   }
 };
+
+
+export const predictExpandedDiseases = async (patientData, token) => {
+  const response = await fetch(`${API_URL}/predict-diseases`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+    body: JSON.stringify(patientData),
+  })
+
+  const data = await response.json()
+
+  if (!response.ok) {
+    throw new Error(formatApiError(data.detail))
+  }
+
+  return data
+}
+
+
 export const getPatients = async (token) => {
   const response = await fetch(
     `${API_URL}/patients`,
