@@ -1,5 +1,6 @@
 from backend.app.api.endpoints.profile import router as profile_router
 from backend.services.symptom_analyzer import analyze_symptoms
+from backend.services.severity_evaluator import evaluate_severity
 from backend.services.predict import predict_outcome
 from backend.services.expanded_predict import (
     predict_outcome as predict_expanded_diseases
@@ -487,6 +488,7 @@ def delete_patient(
 
 # --------------------------------------------------
 # 13. ANALYZE PATIENT SYMPTOMS API
+
 # --------------------------------------------------
 
 @app.post("/analyze-symptoms")
@@ -494,16 +496,24 @@ def analyze_patient_symptoms(
     patient: SymptomRequest
 ):
 
+    # 1. Analyze the reported symptoms
     analysis = analyze_symptoms(patient.symptoms)
 
+    # 2. Evaluate severity using our Module 4 service
+    severity_assessment = evaluate_severity(
+        patient.symptoms,
+        patient.duration_days
+    )
+
+    # 3. Return both analysis and severity assessment
     return {
         "message": "Symptom analysis completed",
         "age": patient.age,
         "symptoms": patient.symptoms,
         "duration_days": patient.duration_days,
-        "analysis": analysis
+        "analysis": analysis,
+        "severity_assessment": severity_assessment
     }
-
 
 # --------------------------------------------------
 # 14. PREDICT PATIENT OUTCOME API
