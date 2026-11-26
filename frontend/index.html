@@ -1,96 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedAssist AI</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedAssist AI - Risk Categorization</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="navbar">
-        <h2>MedAssist AI</h2>
-        <nav>
-            <a href="login.html">Login</a>
-            <a href="register.html" class="btn-link">Get Started</a>
-        </nav>
-    </header>
+  <main class="container">
+    <h1>Risk Categorization</h1>
+    <p class="note">Preliminary automated estimate. Not a medical diagnosis.</p>
 
-    <main>
-        <section class="hero">
-            <div class="hero-text">
-                <p class="tag">Smart India Hackathon Project</p>
-                <h1>Your Health, Our Intelligence.</h1>
-                <p>Empowering better healthcare through intelligent symptom analysis, digital consultations, and connected patient care.</p>
-                <a href="register.html" class="btn">Get Started</a>
-                <a href="#features" class="btn btn-outline">Explore Platform</a>
-            </div>
+    <form id="risk-form" novalidate>
+      <label>Risk score (0-100)
+        <input id="risk_score" type="number" min="0" max="100" step="any" required>
+      </label>
 
-            <div class="hero-card">
-                <h3>MedAssist Dashboard</h3>
-                <div class="mini-grid">
-                    <div class="mini-box">Doctors and Patients</div>
-                    <div class="mini-box">Health Records</div>
-                    <div class="mini-box">Symptoms <span class="upcoming">Upcoming</span></div>
-                    <div class="mini-box">AI Assessment <span class="upcoming">Upcoming</span></div>
-                </div>
-            </div>
-        </section>
+      <label>Severity level (from Severity Evaluation)
+        <select id="severity_level">
+          <option value="">Not provided</option>
+          <option>LOW</option><option>MODERATE</option>
+          <option>HIGH</option><option>CRITICAL</option>
+        </select>
+      </label>
 
-        <section id="features" class="section">
-            <h2>Platform Features</h2>
-            <div class="feature-grid">
-                <div class="feature-box">
-                    <h4>Smart Symptom Analysis</h4>
-                    <span class="upcoming">Upcoming</span>
-                    <p>Enter how you are feeling and get it analysed.</p>
-                </div>
-                <div class="feature-box">
-                    <h4>AI-Assisted Disease Prediction</h4>
-                    <span class="upcoming">Upcoming</span>
-                    <p>Possible conditions predicted from your symptoms.</p>
-                </div>
-                <div class="feature-box">
-                    <h4>Doctor-Patient Collaboration</h4>
-                    <p>Doctors can see the patients assigned to them.</p>
-                </div>
-                <div class="feature-box">
-                    <h4>Digital Health Records</h4>
-                    <p>Your details are stored safely in one place.</p>
-                </div>
-                <div class="feature-box">
-                    <h4>Medical History Tracking</h4>
-                    <p>Add and view your past conditions anytime.</p>
-                </div>
-                <div class="feature-box">
-                    <h4>Secure Healthcare Management</h4>
-                    <p>Login with a token and role based access.</p>
-                </div>
-            </div>
-        </section>
+      <label class="inline">
+        <input id="emergency_flag" type="checkbox">
+        Emergency flag (from Emergency Identification)
+      </label>
 
-        <section class="section">
-            <h2>How It Works</h2>
-            <div class="steps">
-                <div class="step-box">
-                    <span>Step 1</span>
-                    <p>Register and create your account</p>
-                </div>
-                <div class="step-box">
-                    <span>Step 2</span>
-                    <p>Connect with healthcare professionals</p>
-                </div>
-                <div class="step-box">
-                    <span>Step 3</span>
-                    <p>Manage your health information</p>
-                </div>
-            </div>
-        </section>
-    </main>
+      <label>Symptoms (comma separated, optional)
+        <input id="symptoms" type="text" placeholder="fever, headache">
+      </label>
 
-    <footer class="footer">
-        <p>&copy; 2026 MedAssist AI &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms and Conditions</a> &middot; contact@medassist.ai</p>
-    </footer>
+      <label>Risk factors (comma separated, optional)
+        <input id="risk_factors" type="text" placeholder="persistent symptoms">
+      </label>
 
-    <script src="js/common.js"></script>
+      <button type="submit">Categorize risk</button>
+    </form>
+
+    <p id="error" class="error" role="alert" hidden></p>
+
+    <section id="result" hidden aria-live="polite">
+      <div id="emergency-banner" class="emergency" hidden></div>
+      <div class="summary">
+        <div>Risk Score: <strong id="out-score"></strong></div>
+        <div>Risk Category: <span id="out-category" class="badge"></span></div>
+        <div>Severity: <strong id="out-severity"></strong></div>
+        <div>Emergency Warning: <strong id="out-emergency"></strong></div>
+      </div>
+      <h2>Explanation</h2>
+      <p id="out-explanation"></p>
+      <h2>Guidance</h2>
+      <p id="out-guidance"></p>
+      <h2>Contributing factors</h2>
+      <ul id="out-factors"></ul>
+      <p id="out-disclaimer" class="note"></p>
+    </section>
+  </main>
+  <script src="app.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-Flask
-Flask-Cors
-Flask-Bcrypt
-Flask-JWT-Extended
+fastapi>=0.100
+pydantic>=2.0
+uvicorn>=0.23
+pytest>=7.0
